@@ -1,8 +1,5 @@
 <?php 
-	$heroImage = get_field('hero_image');
-if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?>
+	$heroImage = get_field('hero_image');?>
 
 <section class="hero" style="background-image: url(<?php echo esc_url($heroImage['url']); ?>);">
 	<?php if(get_field('hero_title')){ ;?>
