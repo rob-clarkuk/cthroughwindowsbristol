@@ -3,12 +3,12 @@
 
 <section class="hero text__center" style="background-image: url(<?php echo esc_url($heroImage['url']); ?>);">
 	<?php if(get_field('hero_title')){ ;?>
-		<div class="hero__title">
+		<div class="hero__title font100 pb1">
 			<h1 class="heading__xl heading__shadow heading__light"><?php the_field('hero_title');?></h1>
 		</div>
 	<?php } ;?>
 	<?php if(get_field('hero_sub_title')){ ;?>
-		<div class="hero__subtitle">
+		<div class="hero__subtitle font100 pb1">
 			<h2 class="heading__md heading__shadow heading__light"><?php the_field('hero_sub_title');?></h2>
 		</div>
 	<?php } ;?>
