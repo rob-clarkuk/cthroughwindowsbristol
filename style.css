@@ -2050,6 +2050,7 @@ textarea {
 .keypoints__container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
 }
 
 .keypoints__item {
