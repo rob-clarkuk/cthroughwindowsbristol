@@ -1,3 +1,10 @@
 .keypoints{
 	background: $site-gradient;
+	&__container{
+		display:grid;
+		grid-template-columns: repeat(4, 1fr)
+	}
+	&__item{
+		color:$white;
+	}
 }
