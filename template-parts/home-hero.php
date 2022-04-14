@@ -16,7 +16,7 @@
 		if( have_rows('hero_buttons') ):?>
 			<div class="hero__cta">
 			<?php while( have_rows('hero_buttons') ) : the_row();?>
-				<a href="<?php the_sub_field('button_link');?>">
+				<a href="<?php the_sub_field('button_link');?>" class="btn <?php the_sub_field('button_style');?>">
 					<?php the_sub_field('button_title');?>
 				</a>
 			<?php endwhile;?>

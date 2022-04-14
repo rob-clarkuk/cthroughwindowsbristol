@@ -22,14 +22,25 @@ input[type="submit"] {
 
 .btn{
 	border:0;
-	background-color:$primary-color;
+	background-color:$secondary-color;
 	padding:5px;
 	display:inline-block;
 	transition:.3s;
 	color:$white;
 	border-radius: 10px;
 	&:hover{
-		color:$white;
 		transition:.3s;
+	}
+	&__primary{
+		background-color:$secondary-color;
+		&:hover{
+			background-color:$tertiary-color;
+		}
+	}
+	&__secondary{
+		background-color:$tertiary-color;
+		&:hover{
+			background-color:$secondary-color;
+		}
 	}
 }
