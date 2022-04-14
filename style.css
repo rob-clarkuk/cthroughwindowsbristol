@@ -937,7 +937,7 @@ textarea {
 	color: #404040;
 	font-family: "Lato", sans-serif;
 	font-size: 1rem;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 h1,
@@ -1000,7 +1000,7 @@ address {
 pre {
 	background: #eee;
 	font-family: "Courier 10 Pitch", courier, monospace;
-	line-height: 1;
+	line-height: 1.2;
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
