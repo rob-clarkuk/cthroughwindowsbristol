@@ -1036,6 +1036,12 @@ body {
 	background: #fff;
 }
 
+.container {
+	width: 1000px;
+	max-width: 90vw;
+	margin: auto;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -1488,6 +1494,10 @@ textarea {
 .hero__cta {
 	display: flex;
 	grid-gap: 1em;
+}
+
+.keypoints {
+	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }
 
 /*--------------------------------------------------------------
