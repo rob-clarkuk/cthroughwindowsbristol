@@ -404,6 +404,34 @@ h6 {
 	font-family: "Shanti", sans-serif;
 }
 
+.heading__xl {
+	font-size: 90px;
+}
+
+.heading__lg {
+	font-size: 39px;
+}
+
+.heading__md {
+	font-size: 26px;
+}
+
+.heading__sm {
+	font-size: 16px;
+}
+
+.heading__xs {
+	font-size: 13px;
+}
+
+.heading__light {
+	color: #fff;
+}
+
+.heading__shadow {
+	text-shadow: #171819 2px 2px 6px;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -858,6 +886,12 @@ textarea {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero__title {
+	width: 1100px;
+	max-width: 90vw;
 }
 
 /*--------------------------------------------------------------

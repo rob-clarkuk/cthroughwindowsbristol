@@ -3,6 +3,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero__title {
+	width: 1100px;
+	max-width: 90vw;
 }
 
 /*# sourceMappingURL=hero.css.map */

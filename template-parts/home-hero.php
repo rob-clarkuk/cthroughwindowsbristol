@@ -4,7 +4,7 @@
 <section class="hero" style="background-image: url(<?php echo esc_url($heroImage['url']); ?>);">
 	<?php if(get_field('hero_title')){ ;?>
 		<div class="hero__title">
-			<h1><?php the_field('hero_title');?></h1>
+			<h1 class="heading__xl heading__shadow"><?php the_field('hero_title');?></h1>
 		</div>
 	<?php } ;?>
 	<?php if(get_field('hero_sub_title')){ ;?>
