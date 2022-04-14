@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "hero.css",
+	"sources": [
+		"../../sass/components/home/hero.scss"
+	],
+	"names": [],
+	"mappings": ""
+}
