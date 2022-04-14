@@ -20,4 +20,9 @@
 	max-width: 90vw;
 }
 
+.hero__cta {
+	display: flex;
+	grid-gap: 1em;
+}
+
 /*# sourceMappingURL=hero.css.map */
