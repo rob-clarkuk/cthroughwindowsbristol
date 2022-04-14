@@ -19,3 +19,17 @@ input[type="submit"] {
 		border-color: $color__border-button-focus;
 	}
 }
+
+.btn{
+	border:0;
+	background-color:$primary-color;
+	padding:5px;
+	display:inline-block;
+	transition:.3s;
+	color:$white;
+	border-radius: 10px;
+	&:hover{
+		color:$white;
+		transition:.3s;
+	}
+}

@@ -9,7 +9,7 @@
 	<?php } ;?>
 	<?php if(get_field('hero_sub_title')){ ;?>
 		<div class="hero__subtitle">
-			<h2 class="heading__lg heading__shadow heading__light"><?php the_field('hero_sub_title');?></h2>
+			<h2 class="heading__md heading__shadow heading__light"><?php the_field('hero_sub_title');?></h2>
 		</div>
 	<?php } ;?>
 	<?php
