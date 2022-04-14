@@ -391,7 +391,7 @@ textarea {
 	color: #404040;
 	font-family: "Lato", sans-serif;
 	font-size: 1rem;
-	line-height: 1.5;
+	line-height: 1;
 }
 
 h1,
@@ -454,7 +454,7 @@ address {
 pre {
 	background: #eee;
 	font-family: "Courier 10 Pitch", courier, monospace;
-	line-height: 1.6;
+	line-height: 1;
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
@@ -887,6 +887,10 @@ textarea {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	flex-direction: row;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -978,6 +982,18 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+.text__left {
+	text-align: left;
+}
+
+.text__right {
+	text-align: right;
+}
+
+.text__center {
+	text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,10 @@
 <?php 
 	$heroImage = get_field('hero_image');?>
 
-<section class="hero" style="background-image: url(<?php echo esc_url($heroImage['url']); ?>);">
+<section class="hero text-center" style="background-image: url(<?php echo esc_url($heroImage['url']); ?>);">
 	<?php if(get_field('hero_title')){ ;?>
 		<div class="hero__title">
-			<h1 class="heading__xl heading__shadow"><?php the_field('hero_title');?></h1>
+			<h1 class="heading__xl heading__shadow heading__light"><?php the_field('hero_title');?></h1>
 		</div>
 	<?php } ;?>
 	<?php if(get_field('hero_sub_title')){ ;?>

@@ -25,3 +25,15 @@
 
 	margin-bottom: 1.5em;
 }
+
+.text{
+	&__left{
+		text-align:left;
+	}
+	&__right{
+		text-align:right;
+	}
+	&__center{
+		text-align:center;
+	}
+}
