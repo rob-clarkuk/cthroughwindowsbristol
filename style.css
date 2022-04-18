@@ -501,52 +501,52 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 /* Grid Template */
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid1 {
+	grid-template-columns: repeat(1, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid2 {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid3 {
+	grid-template-columns: repeat(3, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid4 {
+	grid-template-columns: repeat(4, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid5 {
+	grid-template-columns: repeat(5, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid6 {
+	grid-template-columns: repeat(6, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid7 {
+	grid-template-columns: repeat(7, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid8 {
+	grid-template-columns: repeat(8, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid9 {
+	grid-template-columns: repeat(9, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid10 {
+	grid-template-columns: repeat(10, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid11 {
+	grid-template-columns: repeat(11, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid12 {
+	grid-template-columns: repeat(12, 1fr);
 }
 
 /* Typography */
@@ -2021,52 +2021,52 @@ textarea {
 }
 
 /* Grid Template */
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid1 {
+	grid-template-columns: repeat(1, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid2 {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid3 {
+	grid-template-columns: repeat(3, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid4 {
+	grid-template-columns: repeat(4, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid5 {
+	grid-template-columns: repeat(5, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid6 {
+	grid-template-columns: repeat(6, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid7 {
+	grid-template-columns: repeat(7, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid8 {
+	grid-template-columns: repeat(8, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid9 {
+	grid-template-columns: repeat(9, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid10 {
+	grid-template-columns: repeat(10, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid11 {
+	grid-template-columns: repeat(11, 1fr);
 }
 
-.grid1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 {
-	grid-template-columns: repeat(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1fr);
+.grid12 {
+	grid-template-columns: repeat(12, 1fr);
 }
 
 /* Typography */
