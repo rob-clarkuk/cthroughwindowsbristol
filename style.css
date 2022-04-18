@@ -1454,6 +1454,10 @@ textarea {
 	grid-column: span 1;
 }
 
+.textimage__content {
+	grid-column: span 2;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
