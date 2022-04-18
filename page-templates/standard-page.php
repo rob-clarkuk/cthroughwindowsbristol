@@ -4,4 +4,6 @@
  */
 get_header();?>
 
+<?php get_template_part( 'template-parts/page', 'hero' );?>
+
 <?php get_footer(); ?>
