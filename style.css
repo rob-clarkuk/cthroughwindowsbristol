@@ -1028,6 +1028,10 @@ h6 {
 	color: #fff;
 }
 
+.heading__grey {
+	color: #fff;
+}
+
 .heading__shadow {
 	text-shadow: #171819 2px 2px 6px;
 }
