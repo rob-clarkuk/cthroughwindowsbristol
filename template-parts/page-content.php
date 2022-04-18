@@ -5,7 +5,7 @@
 
 		<?php if( get_row_layout() == 'image_text_bullet_points_block' ):?>
 
-			<?php get_template_part( 'template-parts/content/block', 'itb' );?>
+			<?php get_template_part( 'content/block', 'itb' );?>
 
 		<?php endif ;?>
 
