@@ -11,8 +11,10 @@
 			</div>
 		<?php } ;?>
 		<?php if(get_sub_field('image')){ ;?>
+			<?php 
+				$image = get_sub_field('image');?>
 			<div class="itb__image">
-				<?php the_sub_field('image');?>
+				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
 			</div>
 		<?php } ;?>
 	</div>
