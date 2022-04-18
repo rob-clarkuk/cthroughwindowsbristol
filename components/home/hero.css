@@ -12,6 +12,7 @@
 .hero__title {
 	width: 1100px;
 	max-width: 90vw;
+	line-height: 1;
 }
 
 .hero__subtitle {
