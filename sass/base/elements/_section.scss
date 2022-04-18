@@ -1,0 +1,11 @@
+.section{
+	&__dark{
+		background-color:$black
+	}
+	&__light{
+		background-color:$white
+	}
+	&__lightgrey{
+		background-color:$light-grey
+	}
+}
