@@ -1438,6 +1438,10 @@ textarea {
 	grid-column: span 3;
 }
 
+.itb__content {
+	grid-column: span 1;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
