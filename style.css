@@ -1462,6 +1462,10 @@ textarea {
 	grid-column: span 2;
 }
 
+.textimage__image {
+	box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px 0;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {

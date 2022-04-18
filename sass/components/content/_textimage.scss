@@ -3,4 +3,7 @@
 	&__content{
 		grid-column: span 2;
 	}
+	&__image{
+		box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px 0;
+	}
 }

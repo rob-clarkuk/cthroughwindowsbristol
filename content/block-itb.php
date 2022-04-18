@@ -1,4 +1,4 @@
-<section class="itb section__lightgrey pb2 pl2 pr2 pt2">
+<section class="itb section__lightgrey pb2 pl2 pr2 pt2 mb2">
 	<div class="grid3 grid">
 		<?php if(get_sub_field('title')){ ;?>
 			<div class="itb__title">
