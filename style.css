@@ -951,8 +951,12 @@ h6 {
 	font-family: "Shanti", sans-serif;
 }
 
-.heading__xl {
+.heading__xxl {
 	font-size: 90px;
+}
+
+.heading__xl {
+	font-size: 65px;
 }
 
 .heading__lg {
