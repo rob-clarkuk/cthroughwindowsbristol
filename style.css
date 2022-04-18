@@ -1454,6 +1454,10 @@ textarea {
 	grid-column: span 1;
 }
 
+.textimage {
+	grid-gap: 1em;
+}
+
 .textimage__content {
 	grid-column: span 2;
 }
