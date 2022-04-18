@@ -1,4 +1,7 @@
 .itb{
+	.grid{
+		grid-gap:1em;
+	}
 	&__title{
 		grid-column: span 3;
 	}

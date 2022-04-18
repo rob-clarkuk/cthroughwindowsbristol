@@ -1434,6 +1434,10 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
+.itb .grid {
+	grid-gap: 1em;
+}
+
 .itb__title {
 	grid-column: span 3;
 }

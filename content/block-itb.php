@@ -10,9 +10,19 @@
 				<?php the_sub_field('content');?>
 			</div>
 		<?php } ;?>
+		<?php if(get_sub_field('bullet_points')){ ;?>
+			<div class="itb__bullets">
+				<?php if( have_rows('bullet_point') ): ;?>
+				<ul>
+					<?php while( have_rows('bullet_point') ) : the_row();?>
+						<li><?php the_sub_field('bullet_point');?></li>
+					<?php endwhile;?>
+				</ul>
+				<?php endif;?>
+			</div>
+		<?php } ;?>
 		<?php if(get_sub_field('image')){ ;?>
-			<?php 
-				$image = get_sub_field('image');?>
+			<?php $image = get_sub_field('image');?>
 			<div class="itb__image">
 				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
 			</div>
