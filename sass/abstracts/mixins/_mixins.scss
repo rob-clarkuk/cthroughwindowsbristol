@@ -58,6 +58,16 @@ $height: (0, 25, 50, 75, 100); // Amount string.
     padding-bottom: 3em;
 }
 
+/* Grid Template */
+
+$grid: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12); // Amount string.
+
+@each $amount in $grid {
+    .grid#{$grid} {
+        grid-template-columns:repeat(#{$grid}, 1fr);
+    }
+}
+
 /* Typography */
 
 $weight: (100, 200, 300, 400, 500, 600, 700, 800, 900); // Amount string.
