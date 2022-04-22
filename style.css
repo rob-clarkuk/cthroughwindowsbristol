@@ -1557,7 +1557,7 @@ textarea {
 }
 
 @media only screen and (max-width: 1024px) {
-	.textimage > div {
+	.textimage {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
