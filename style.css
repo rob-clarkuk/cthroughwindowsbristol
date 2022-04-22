@@ -1492,6 +1492,10 @@ textarea {
 	justify-content: space-between;
 }
 
+.ktp__border {
+	border-right: 1px solid #696969;
+}
+
 .textimage {
 	grid-gap: 2em;
 }

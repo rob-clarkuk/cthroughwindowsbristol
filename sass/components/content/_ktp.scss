@@ -3,4 +3,7 @@
 		display:flex;
 		justify-content:space-between;
 	}
+	&__border{
+		border-right:1px solid $dark-grey;
+	}
 }
