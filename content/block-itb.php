@@ -13,7 +13,7 @@
 		<?php if(get_sub_field('bullet_points')){ ;?>
 			<div class="itb__bullets">
 				<?php if( have_rows('bullet_points') ): ;?>
-				<ul class="ml0 mb0">
+				<ul class="ml0 mb0 pl0">
 					<?php while( have_rows('bullet_points') ) : the_row();?>
 						<li><?php get_template_part( 'icons/icon', 'tick' );?> <?php the_sub_field('bullet_point');?></li>
 					<?php endwhile;?>
@@ -24,7 +24,7 @@
 		<?php if(get_sub_field('image')){ ;?>
 			<?php $image = get_sub_field('image');?>
 			<div class="itb__image">
-				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
+				<img src="<?php echo esc_url($image['url']['itb-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
 			</div>
 		<?php } ;?>
 	</div>

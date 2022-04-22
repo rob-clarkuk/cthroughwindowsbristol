@@ -1435,7 +1435,7 @@ textarea {
 }
 
 .itb .grid {
-	grid-gap: 1em;
+	grid-gap: 1.5em;
 }
 
 .itb__title {
@@ -1447,7 +1447,7 @@ textarea {
 }
 
 .itb__content p {
-	padding-top: 0;
+	margin-top: 0;
 }
 
 .itb__bullets {
