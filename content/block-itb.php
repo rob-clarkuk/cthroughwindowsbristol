@@ -10,13 +10,15 @@
 				<?php the_sub_field('content');?>
 			</div>
 		<?php } ;?>
-		<?php if( have_rows('bullet_points') ): ;?>
+		<?php if(get_sub_field('bullet_points')){ ;?>
 			<div class="itb__bullets">
+				<?php if( have_rows('bullet_points') ): ;?>
 				<ul>
 					<?php while( have_rows('bullet_points') ) : the_row();?>
 						<li><?php the_sub_field('bullet_point');?></li>
 					<?php endwhile;?>
 				</ul>
+				<?php endif;?>
 			</div>
 		<?php } ;?>
 		<?php if(get_sub_field('image')){ ;?>
