@@ -1489,7 +1489,7 @@ textarea {
 
 .ktp__content {
 	display: flex;
-	justify-content: stretch;
+	justify-content: space-between;
 }
 
 .textimage {

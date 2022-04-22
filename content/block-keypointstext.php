@@ -15,6 +15,11 @@
 									<h2 class="heading__sm heading__body-font text__center heading__primary"><?php the_sub_field('title');?></h2>
 								</div>
 							<?php } ;?>
+							<?php if(get_sub_field('content')){ ;?>
+								<div class="ktp__content">
+									<?php the_sub_field('content');?>
+								</div>
+							<?php } ;?>
 						</div>
 					<?php endwhile;?>
 				<?php endif;?>
