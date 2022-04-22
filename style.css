@@ -1502,6 +1502,10 @@ textarea {
 
 .ktp__image {
 	background-color: #4b21ff;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	border-radius: 20px;
 }
 
 .textimage {
