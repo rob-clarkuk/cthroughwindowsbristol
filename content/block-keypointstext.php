@@ -10,14 +10,14 @@
 			<div class="ktp__content">
 				<?php if( have_rows('key_point') ): ;?>
 					<?php while( have_rows('key_point') ) : the_row();?>
-						<div class="ktp__content--item pl3 pr3">
+						<div class="ktp__content--item">
 							<?php if(get_sub_field('title')){ ;?>
-								<div class="ktp__content__title">
+								<div class="ktp__content__title pl3 pr3">
 									<h2 class="heading__sm heading__body-font text__center heading__primary"><?php the_sub_field('title');?></h2>
 								</div>
 							<?php } ;?>
 							<?php if(get_sub_field('content')){ ;?>
-								<div class="ktp__content text__center<?php if ($borders == 'true'){?> ktp__border<?php } ?>">
+								<div class="ktp__content text__center<?php if ($borders == 'true'){?> ktp__border<?php } ?> pl3 pr3">
 									<?php the_sub_field('content');?>
 								</div>
 							<?php } ;?>
