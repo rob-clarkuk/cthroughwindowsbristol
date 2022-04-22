@@ -1493,7 +1493,7 @@ textarea {
 
 @media only screen and (max-width: 1024px) {
 	.itb {
-		padding: 1em;
+		padding: 1em !important;
 	}
 	.itb > div {
 		display: flex;
@@ -1536,7 +1536,7 @@ textarea {
 
 @media only screen and (max-width: 1024px) {
 	.ktp {
-		padding: 1em;
+		padding: 1em !important;
 	}
 }
 
@@ -1569,7 +1569,7 @@ textarea {
 
 @media only screen and (max-width: 1024px) {
 	.textimage {
-		padding: 1em;
+		padding: 1em !important;
 	}
 }
 
