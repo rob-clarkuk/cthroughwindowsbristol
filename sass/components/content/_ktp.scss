@@ -5,5 +5,8 @@
 	}
 	&__border{
 		border-right:1px solid $dark-grey;
+		&:last-of-type{
+			border-right:none;
+		}
 	}
 }
