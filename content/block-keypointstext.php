@@ -9,10 +9,10 @@
 			<div class="kpt__content">
 				<?php if( have_rows('key_point') ): ;?>
 					<?php while( have_rows('key_point') ) : the_row();?>
-						<div class="kpt__content--item">
+						<div class="kpt__content--item pl2 pr2">
 							<?php if(get_sub_field('title')){ ;?>
 								<div class="kpt__content__title">
-									<h2 class="heading__md heading__body-font text__center font400 heading__primary"><?php the_sub_field('title');?></h2>
+									<h2 class="heading__sm heading__body-font text__center heading__primary"><?php the_sub_field('title');?></h2>
 								</div>
 							<?php } ;?>
 						</div>
