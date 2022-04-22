@@ -1548,6 +1548,12 @@ textarea {
 	grid-column: span 2;
 }
 
+@media only screen and (max-width: 1024px) {
+	.textimage__content {
+		padding: 1em !important;
+	}
+}
+
 .textimage__image {
 	box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px 0;
 }
@@ -1564,12 +1570,6 @@ textarea {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.textimage {
-		padding: 1em !important;
 	}
 }
 
