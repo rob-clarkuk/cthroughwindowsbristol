@@ -1494,6 +1494,8 @@ textarea {
 @media only screen and (max-width: 1024px) {
 	.itb > div {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
@@ -1517,6 +1519,14 @@ textarea {
 	padding: 10px;
 	border-radius: 20px;
 	margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+	.ktp > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .textimage {
