@@ -549,78 +549,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	grid-template-columns: repeat(12, 1fr);
 }
 
-@media only screen and (max-width: 1024px) {
-	.gridtab1 {
-		grid-template-columns: repeat(1, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab2 {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab3 {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab4 {
-		grid-template-columns: repeat(4, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab5 {
-		grid-template-columns: repeat(5, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab6 {
-		grid-template-columns: repeat(6, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab7 {
-		grid-template-columns: repeat(7, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab8 {
-		grid-template-columns: repeat(8, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab9 {
-		grid-template-columns: repeat(9, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab10 {
-		grid-template-columns: repeat(10, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab11 {
-		grid-template-columns: repeat(11, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab12 {
-		grid-template-columns: repeat(12, 1fr);
-	}
-}
-
 /* Typography */
 .font100 {
 	font-weight: 100;
@@ -1563,6 +1491,12 @@ textarea {
 	grid-column: span 1;
 }
 
+@media only screen and (max-width: 1024px) {
+	.itb > div {
+		display: flex;
+	}
+}
+
 .ktp__border {
 	border-right: 1px solid #696969;
 }
@@ -2230,78 +2164,6 @@ textarea {
 
 .grid12 {
 	grid-template-columns: repeat(12, 1fr);
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab1 {
-		grid-template-columns: repeat(1, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab2 {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab3 {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab4 {
-		grid-template-columns: repeat(4, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab5 {
-		grid-template-columns: repeat(5, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab6 {
-		grid-template-columns: repeat(6, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab7 {
-		grid-template-columns: repeat(7, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab8 {
-		grid-template-columns: repeat(8, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab9 {
-		grid-template-columns: repeat(9, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab10 {
-		grid-template-columns: repeat(10, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab11 {
-		grid-template-columns: repeat(11, 1fr);
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.gridtab12 {
-		grid-template-columns: repeat(12, 1fr);
-	}
 }
 
 /* Typography */

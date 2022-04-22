@@ -68,14 +68,6 @@ $grid: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12); // Amount string.
     }
 }
 
-@each $amount in $grid {
-    @media only screen and (max-width: 1024px) {
-        .gridtab#{$amount} {
-            grid-template-columns:repeat(#{$amount}, 1fr);
-        }
-    }
-}
-
 
 /* Typography */
 
