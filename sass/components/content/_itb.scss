@@ -7,16 +7,25 @@
 	}
 	&__content{
 		grid-column: span 1;
+		p{
+			padding-top: 0;
+		}
 	}
 	&__bullets{
 		grid-column: span 1;
 		ul{
-			list-style:none;
+			list-style: none;
+			li{
+				display: grid;
+				grid-template-columns: repeat(2, auto);
+				grid-gap: 1em;
+				align-items: center;
+			}
 			svg{
 				width:18px;
 				max-width:18px;
 				path{
-					fill:#17c411;
+					fill: #17c411;
 				}
 			}
 		}

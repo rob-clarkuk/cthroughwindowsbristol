@@ -1446,12 +1446,23 @@ textarea {
 	grid-column: span 1;
 }
 
+.itb__content p {
+	padding-top: 0;
+}
+
 .itb__bullets {
 	grid-column: span 1;
 }
 
 .itb__bullets ul {
 	list-style: none;
+}
+
+.itb__bullets ul li {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 1em;
+	align-items: center;
 }
 
 .itb__bullets ul svg {
