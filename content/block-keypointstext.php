@@ -19,7 +19,7 @@
 							<?php } ;?>
 							<?php if(get_sub_field('title')){ ;?>
 								<div class="ktp__content__title pl3 pr3">
-									<h2 class="heading__sm heading__body-font text__center heading__primary"><?php the_sub_field('title');?></h2>
+									<h2 class="heading__sm heading__body-font text__center heading__purple"><?php the_sub_field('title');?></h2>
 								</div>
 							<?php } ;?>
 							<?php if(get_sub_field('content')){ ;?>
