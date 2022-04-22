@@ -14,7 +14,7 @@
 							<?php if(get_sub_field('icon')){ ;?>
 								<?php $icon = get_sub_field('icon');?>
 								<div class="ktp__image">
-									<img src="<?php echo esc_url($image['sizes']['ktp-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
+									<img src="<?php echo esc_url($icon['sizes']['ktp-image']); ?>" alt="<?php echo esc_url($icon['alt']); ?>">
 								</div>
 							<?php } ;?>
 							<?php if(get_sub_field('title')){ ;?>
