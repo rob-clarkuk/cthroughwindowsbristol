@@ -1454,6 +1454,15 @@ textarea {
 	list-style: none;
 }
 
+.itb__bullets ul svg {
+	width: 18px;
+	max-width: 18px;
+}
+
+.itb__bullets ul svg path {
+	fill: #17c411;
+}
+
 .itb__image {
 	grid-column: span 1;
 }

@@ -12,6 +12,13 @@
 		grid-column: span 1;
 		ul{
 			list-style:none;
+			svg{
+				width:18px;
+				max-width:18px;
+				path{
+					fill:#17c411;
+				}
+			}
 		}
 	}
 	&__image{
