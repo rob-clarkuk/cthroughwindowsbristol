@@ -1,5 +1,5 @@
 <section class="itb section__lightgrey pb2 pl3 pr3 pt2 mb2">
-	<div class="grid3 grid">
+	<div class="grid3 grid gridtab1">
 		<?php if(get_sub_field('title')){ ;?>
 			<div class="itb__title">
 				<h2 class="heading__lg heading__body-font text__center font400 heading__grey"><?php the_sub_field('title');?></h2>
