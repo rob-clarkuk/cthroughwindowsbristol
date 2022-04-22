@@ -5,9 +5,11 @@
 	&__content{
 		display:flex;
 		justify-content:space-between;
-		&:last-of-type{
-			.ktp__border{
-				border-right:none;
+		&--item{
+			&:last-of-type{
+				.ktp__border{
+					border-right:none;
+				}
 			}
 		}
 	}
