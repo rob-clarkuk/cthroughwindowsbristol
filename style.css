@@ -1496,7 +1496,7 @@ textarea {
 	justify-content: space-between;
 }
 
-.ktp__content .ktp__border:last-of-type {
+.ktp__content:last-of-type .ktp__border {
 	border-right: none;
 }
 

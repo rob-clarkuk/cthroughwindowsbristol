@@ -5,8 +5,10 @@
 	&__content{
 		display:flex;
 		justify-content:space-between;
-		.ktp__border:last-of-type{
-			border-right:none;
+		&:last-of-type{
+			.ktp__border{
+				border-right:none;
+			}
 		}
 	}
 }
