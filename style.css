@@ -1487,16 +1487,16 @@ textarea {
 	grid-column: span 1;
 }
 
+.ktp__border {
+	border-right: 1px solid #696969;
+}
+
 .ktp__content {
 	display: flex;
 	justify-content: space-between;
 }
 
-.ktp__border {
-	border-right: 1px solid #696969;
-}
-
-.ktp__border:last-of-type {
+.ktp__content .ktp__border:last-of-type {
 	border-right: none;
 }
 

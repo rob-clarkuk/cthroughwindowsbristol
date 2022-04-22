@@ -1,11 +1,11 @@
 .ktp{
+	&__border{
+		border-right:1px solid $dark-grey;
+	}
 	&__content{
 		display:flex;
 		justify-content:space-between;
-	}
-	&__border{
-		border-right:1px solid $dark-grey;
-		&:last-of-type{
+		.ktp__border:last-of-type{
 			border-right:none;
 		}
 	}
