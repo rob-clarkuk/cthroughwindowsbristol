@@ -1487,6 +1487,11 @@ textarea {
 	grid-column: span 1;
 }
 
+.ktp__content {
+	display: flex;
+	justify-content: stretch;
+}
+
 .textimage {
 	grid-gap: 2em;
 }
