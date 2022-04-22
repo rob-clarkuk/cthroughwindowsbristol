@@ -12,7 +12,7 @@
 						<div class="kpt__content--item">
 							<?php if(get_sub_field('title')){ ;?>
 								<div class="kpt__content__title">
-									<h2 class="heading__lg heading__body-font text__center font400 heading__grey"><?php the_sub_field('title');?></h2>
+									<h2 class="heading__md heading__body-font text__center font400 heading__primary"><?php the_sub_field('title');?></h2>
 								</div>
 							<?php } ;?>
 						</div>
