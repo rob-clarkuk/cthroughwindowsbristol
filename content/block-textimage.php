@@ -10,7 +10,7 @@
 	<?php if(get_sub_field('image')){ ;?>
 		<?php $image = get_sub_field('image');?>
 		<div class="textimage__image">
-			<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
+			<img src="<?php echo esc_url($image['sizes']['textimage-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
 		</div>
 	<?php } ;?>
 </section>
