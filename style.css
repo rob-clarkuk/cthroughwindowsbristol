@@ -1450,6 +1450,10 @@ textarea {
 	grid-column: span 1;
 }
 
+.itb__bullets ul {
+	list-style: none;
+}
+
 .itb__image {
 	grid-column: span 1;
 }

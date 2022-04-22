@@ -13,9 +13,9 @@
 		<?php if(get_sub_field('bullet_points')){ ;?>
 			<div class="itb__bullets">
 				<?php if( have_rows('bullet_points') ): ;?>
-				<ul>
+				<ul class="ml0 mb0">
 					<?php while( have_rows('bullet_points') ) : the_row();?>
-						<li><?php the_sub_field('bullet_point');?></li>
+						<li><?php get_template_part( 'icon/tick' );?> <?php the_sub_field('bullet_point');?></li>
 					<?php endwhile;?>
 				</ul>
 				<?php endif;?>
