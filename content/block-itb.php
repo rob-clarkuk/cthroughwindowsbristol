@@ -24,7 +24,7 @@
 		<?php if(get_sub_field('image')){ ;?>
 			<?php $image = get_sub_field('image');?>
 			<div class="itb__image">
-				<img src="<?php echo esc_url($image['url']['itb-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
+				<img src="<?php echo esc_url($image['sizes']['itb-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
 			</div>
 		<?php } ;?>
 	</div>
