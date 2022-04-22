@@ -9,8 +9,6 @@
 	</div>
 	<?php if(get_sub_field('image')){ ;?>
 		<?php $image = get_sub_field('image');?>
-		<div class="textimage__image">
-			<img src="<?php echo esc_url($image['sizes']['textimage-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
-		</div>
+		<div class="textimage__image" style="background-image: url(<?php echo esc_url($image['sizes']['textimage-image']); ?>);"></div>
 	<?php } ;?>
 </section>
