@@ -1,3 +1,4 @@
+<?php $borders = get_sub_field('display_inner_borders');?>
 <section class="ktp section__lightgrey pb2 pl3 pr3 pt2 mb2">
 	<div class="grid1 grid">
 		<?php if(get_sub_field('title')){ ;?>
@@ -16,7 +17,7 @@
 								</div>
 							<?php } ;?>
 							<?php if(get_sub_field('content')){ ;?>
-								<div class="ktp__content text__center">
+								<div class="ktp__content text__center<?php if ($borders == 'true'){?> ktp__border<?php } ?>">
 									<?php the_sub_field('content');?>
 								</div>
 							<?php } ;?>
