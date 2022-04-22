@@ -1480,7 +1480,7 @@ textarea {
 }
 
 .textimage {
-	grid-gap: 1em;
+	grid-gap: 2em;
 }
 
 .textimage__content {

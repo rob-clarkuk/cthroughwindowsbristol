@@ -15,6 +15,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'key_points_text_block' ):?>
+			
+			<?php get_template_part( 'content/block', 'keypointstext' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
