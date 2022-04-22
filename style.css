@@ -1460,7 +1460,7 @@ textarea {
 
 .itb__bullets ul li {
 	display: grid;
-	grid-template-columns: 18px, auto;
+	grid-template-columns: fit-content(18px) 1fr fit-content(200px);
 	grid-gap: 1em;
 	align-items: center;
 	line-height: 1.4;
