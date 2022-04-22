@@ -1500,6 +1500,10 @@ textarea {
 	border-right: none;
 }
 
+.ktp__image {
+	background-color: #4b21ff;
+}
+
 .textimage {
 	grid-gap: 2em;
 }

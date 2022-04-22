@@ -1,5 +1,5 @@
 <?php $borders = get_sub_field('display_inner_borders');?>
-<section class="ktp section__lightgrey pb2 pl3 pr3 pt2 mb2">
+<section class="ktp section__lightgrey pb3 pl3 pr3 pt2 mb2">
 	<div class="grid1 grid">
 		<?php if(get_sub_field('title')){ ;?>
 			<div class="kpt__title">
@@ -11,6 +11,12 @@
 				<?php if( have_rows('key_point') ): ;?>
 					<?php while( have_rows('key_point') ) : the_row();?>
 						<div class="ktp__content--item">
+							<?php if(get_sub_field('icon')){ ;?>
+								<?php $icon = get_sub_field('icon');?>
+								<div class="ktp__image">
+									<img src="<?php echo esc_url($image['sizes']['ktp-image']); ?>" alt="<?php echo esc_url($image['alt']); ?>">
+								</div>
+							<?php } ;?>
 							<?php if(get_sub_field('title')){ ;?>
 								<div class="ktp__content__title pl3 pr3">
 									<h2 class="heading__sm heading__body-font text__center heading__primary"><?php the_sub_field('title');?></h2>
