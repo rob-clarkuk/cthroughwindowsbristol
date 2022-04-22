@@ -12,6 +12,12 @@
 				}
 			}
 		}
+		@media only screen and (max-width: 1024px) {
+			flex-direction:column;
+	        .ktp__border{
+				border-right:none;
+			}
+	    }
 	}
 	&__image{
 		background-color:$purple;
@@ -21,11 +27,4 @@
 		border-radius:20px;
 		margin:auto;
 	}
-	@media only screen and (max-width: 1024px) {
-        & > div{
-        	display:flex;
-        	flex-direction: column;
-    		align-items: center;
-        }
-    }
 }
