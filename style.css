@@ -1515,6 +1515,7 @@ textarea {
 @media only screen and (max-width: 1024px) {
 	.ktp__content {
 		flex-direction: column;
+		grid-gap: 1.5em;
 	}
 	.ktp__content .ktp__border {
 		border-right: none;
@@ -1538,8 +1539,29 @@ textarea {
 	grid-column: span 2;
 }
 
+@media only screen and (max-width: 1024px) {
+	.textimage__content {
+		order: 2;
+	}
+}
+
 .textimage__image {
 	box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+	.textimage__image {
+		order: 1;
+		min-height: 350px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.textimage > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 /* Comments

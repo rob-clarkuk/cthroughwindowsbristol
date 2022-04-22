@@ -14,6 +14,7 @@
 		}
 		@media only screen and (max-width: 1024px) {
 			flex-direction:column;
+			grid-gap:1.5em;
 	        .ktp__border{
 				border-right:none;
 			}
