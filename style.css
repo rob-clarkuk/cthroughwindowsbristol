@@ -1534,10 +1534,6 @@ textarea {
 	margin: auto;
 }
 
-.ktp__image img {
-	min-width: 100%;
-}
-
 @media only screen and (max-width: 1024px) {
 	.ktp {
 		padding: 1em !important;
