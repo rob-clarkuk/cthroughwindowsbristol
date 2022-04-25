@@ -98,7 +98,12 @@
 							<div>
 								<div class="heading__md heading__primary pb1">Follow us</div>
 								<?php while( have_rows('social') ): the_row();?>
-									
+									<?php if(get_sub_field('image')){ ;?>
+									<?php $image = get_sub_field('image');?>
+										<a href="<?php the_sub_field('link');?>">
+											<img src="<?php echo esc_url($image['sizes']['ktp-image']);?>">
+										</a>
+									<?php } ;?>
 								<?php endwhile; ?>
 							</div>
 						<?php endif; ?>
