@@ -1029,6 +1029,10 @@ h6 {
 }
 
 .heading__grey {
+	color: #a6a6a6;
+}
+
+.heading__dark-grey {
 	color: #696969;
 }
 
