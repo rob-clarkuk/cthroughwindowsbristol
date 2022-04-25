@@ -48,22 +48,27 @@
 					Click to Go Back to Top of Page
 					<a href="#top" class="ml1 btn btn__secondary heading__xs heading__light">Top of Page</a>
 				</div>
-
-				<div class="pt3 pb3 text__center section__grey footer__navigation text__left">
-					<?php if( have_rows('navigation_1') ): ?>
-						<?php while( have_rows('navigation_1') ): the_row();?>
-							<div>
-								<div class="heading__md heading__primary"><?php the_sub_field('title');?></div>
-								<?php if( have_rows('links') ): ?>
-									<ul>
-										<?php while( have_rows('links') ): the_row();?>
-											<li><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></li>
-										<?php endwhile; ?>
-									</ul>
-								<?php endif; ?>
-							</div>
-						<?php endwhile; ?>
-					<?php endif; ?>
+				<div class="container">
+					<div class="pt3 pb3 section__grey footer__navigation text__left">
+						<?php if( have_rows('navigation_1') ): ?>
+							<?php while( have_rows('navigation_1') ): the_row();?>
+								<div>
+									<div class="heading__md heading__primary"><?php the_sub_field('title');?></div>
+									<?php if( have_rows('links') ): ?>
+										<ul>
+											<?php while( have_rows('links') ): the_row();?>
+												<li>
+													<a href="<?php the_sub_field('link');?>" class="heading__dark">
+														<?php the_sub_field('title');?>			
+													</a>
+												</li>
+											<?php endwhile; ?>
+										</ul>
+									<?php endif; ?>
+								</div>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
 				</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
