@@ -37,7 +37,7 @@
 								<?php the_sub_field('title');?>
 								<?php if(get_sub_field('image')){ ;?>
 									<?php $image = get_sub_field('image');?>
-									<img src="<?php <?php echo esc_url($image['sizes']['ktp-image']);?>">
+									<img src="<?php echo esc_url($image['sizes']['ktp-image']);?>">
 								<?php } ;?>
 							</a>
 						<?php endwhile; ?>
