@@ -15,7 +15,10 @@
 		margin:auto;
 	}
 	&__navigation{
-		list-style:none;
+		
+		ul{
+			list-style:none;
+		}
 		li{
 			padding-left:10px;
 			&:before{

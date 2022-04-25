@@ -1360,7 +1360,7 @@ textarea {
 	margin: auto;
 }
 
-.footer__navigation {
+.footer__navigation ul {
 	list-style: none;
 }
 
