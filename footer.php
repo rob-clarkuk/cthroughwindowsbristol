@@ -89,11 +89,19 @@
 						<div>
 							<?php if(get_sub_field('contact_details')){ ;?>
 								<div class="heading__md heading__primary pb1">Contact Details</div>
-								<div>
+								<div class="heading__xs">
 									<?php the_sub_field('contact_details');?>
 								</div>
 							<?php } ;?>
 						</div>
+						<?php if( have_rows('social') ): ?>
+							<div>
+								<div class="heading__md heading__primary pb1">Follow us</div>
+								<?php while( have_rows('social') ): the_row();?>
+									
+								<?php endwhile; ?>
+							</div>
+						<?php endif; ?>
 					</div>
 				</div>
 	    	<?php endwhile; ?>
