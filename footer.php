@@ -17,7 +17,7 @@
     			<?php if (get_sub_field('footer_cta_content')) { ?>
     				<div class="section__grey pt1 pb1 text__center heading__primary">
     					<?php the_sub_field('footer_cta_content');?>
-    					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__primary heading__xs heading__light"><?php the_sub_field('footer_cta_button_text');?></a>
+    					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__secondary heading__xs heading__light"><?php the_sub_field('footer_cta_button_text');?></a>
     				</div>
     			<?php };?>
     			<div class="footer__contact pb9 pt9 text__center">
@@ -46,7 +46,7 @@
     			</div>
     			<div class="pt1 pb1 text__center heading__primary">
 					Click to Go Back to Top of Page
-					<a href="#top" class="ml1 btn btn__primary heading__xs heading__light">Top of Page</a>
+					<a href="#top" class="ml1 btn btn__secondary heading__xs heading__light">Top of Page</a>
 				</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
