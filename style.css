@@ -1360,6 +1360,22 @@ textarea {
 	margin: auto;
 }
 
+.footer__navigation {
+	list-style: none;
+}
+
+.footer__navigation li {
+	padding-left: 10px;
+}
+
+.footer__navigation li:before {
+	width: 5px;
+	height: 5px;
+	background-color: #696969;
+	border-radius: 50%;
+	content: '';
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
