@@ -51,11 +51,12 @@
 
 				<div class="pt3 pb3 text__center section__grey footer__navigation">
 					<?php if( have_rows('navigation_1') ): ?>
-					<?php while( have_rows('navigation_1') ): the_row();?>
-						<div>
-							<div class="heading__xs heading__light pb1"><?php the_sub_field('title');?></div>
-						</div>
-					<?php endwhile; ?>
+						<?php while( have_rows('navigation_1') ): the_row();?>
+							<div>
+								<div class="heading__xs heading__light pb1"><?php the_sub_field('title');?></div>
+							</div>
+						<?php endwhile; ?>
+					<?php endif; ?>
 				</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
