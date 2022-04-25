@@ -15,7 +15,7 @@
 		<?php if( have_rows('footer', 'option') ): ?>
     		<?php while( have_rows('footer', 'option') ): the_row();?>
     			<?php if (get_sub_field('footer_cta_content')) { ?>
-    				<div class="section__grey pt1 pb1 text__center">
+    				<div class="section__grey pt1 pb1 text__center heading__xs">
     					<?php the_sub_field('footer_cta_content');?>
     					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__primary"><?php the_sub_field('footer_cta_button_text');?></a>
     				</div>
