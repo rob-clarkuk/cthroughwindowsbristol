@@ -55,10 +55,10 @@
 								<div>
 									<div class="heading__md heading__primary"><?php the_sub_field('title');?></div>
 									<?php if( have_rows('links') ): ?>
-										<ul>
+										<ul class="ml0 pl0">
 											<?php while( have_rows('links') ): the_row();?>
 												<li>
-													<a href="<?php the_sub_field('link');?>" class="heading__dark-grey">
+													<a href="<?php the_sub_field('link');?>" class="heading__dark-grey heading__xs">
 														<?php the_sub_field('title');?>			
 													</a>
 												</li>
