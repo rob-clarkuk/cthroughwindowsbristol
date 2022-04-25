@@ -20,7 +20,7 @@
     					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__primary heading__xs heading__light"><?php the_sub_field('footer_cta_button_text');?></a>
     				</div>
     			<?php };?>
-    			<div class="footer__contact pb7 pt7 text__center">
+    			<div class="footer__contact pb9 pt9 text__center">
     				<?php if (get_sub_field('availability_content')) { ?>
     					<div class="heading__lg heading__grey"><?php the_sub_field('availability_content');?></div>
     				<?php };?>
@@ -44,6 +44,10 @@
 	    			</div>
 	    			<?php endif; ?>
     			</div>
+    			<div class="pt1 pb1 text__center heading__primary">
+					Click to Go Back to Top of Page
+					<a href="#top" class="ml1 btn btn__primary heading__xs heading__light">Top of Page</a>
+				</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
 
