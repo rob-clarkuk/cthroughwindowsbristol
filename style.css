@@ -1190,6 +1190,10 @@ figure {
 	background-color: #a6a6a6;
 }
 
+.section__darkgrey {
+	background-color: #696969;
+}
+
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
