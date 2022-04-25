@@ -1364,6 +1364,8 @@ textarea {
 	display: flex;
 	justify-content: flex-start;
 	list-style: none;
+	grid-gap: 10px;
+	align-items: center;
 }
 
 .footer__navigation li:before {

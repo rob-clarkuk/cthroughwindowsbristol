@@ -19,6 +19,8 @@
 			display:flex;
 			justify-content: flex-start;
 			list-style:none;
+			grid-gap:10px;
+			align-items:center;
 
 			&:before{
 				width: 5px;
