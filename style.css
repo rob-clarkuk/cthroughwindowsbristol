@@ -1048,6 +1048,10 @@ h6 {
 	color: #8e20ff;
 }
 
+.heading__orange {
+	color: #ffb71a;
+}
+
 .heading__shadow {
 	text-shadow: #171819 2px 2px 6px;
 }
