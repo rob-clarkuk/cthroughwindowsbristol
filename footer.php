@@ -28,9 +28,16 @@
     					<div class="pb1 pt1"><a href="tel:<?php the_sub_field('phone_number');?>" class="heading__lg heading__orange"><?php the_sub_field('phone_number');?></a></div>
     				<?php };?>
     				<?php if (get_sub_field('availability_content_2')) { ?>
-    					<div class="heading__grey"><a href="<?php the_sub_field('contact_link');?>" class="heading__orange"><?php the_sub_field('availability_content_2');?></a></div>
+    					<div class="heading__grey"><a href="<?php the_sub_field('contact_link');?>" class="heading__grey"><?php the_sub_field('availability_content_2');?></a></div>
     				<?php };?>
     			</div>
+    			<?php if( have_rows('contact_icons') ): ?>
+    			<div class="footer__icons pt1">
+					<?php while( have_rows('contact_icons') ): the_row();?>
+						<?php the_sub_field('title');?>
+					<?php endwhile; ?>
+    			</div>
+    			<?php endif; ?>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
 
