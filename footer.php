@@ -36,7 +36,7 @@
 							<a href="<?php the_sub_field('link');?>">
 								<?php the_sub_field('title');?>
 								<?php if(get_sub_field('image')){ ;?>
-									<?php $image = get_sub_field('image');?>
+									<div class="heading__xs heading__light"><?php $image = get_sub_field('image');?></div>
 									<img src="<?php echo esc_url($image['sizes']['ktp-image']);?>">
 								<?php } ;?>
 							</a>
