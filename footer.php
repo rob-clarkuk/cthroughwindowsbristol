@@ -86,6 +86,14 @@
 								</div>
 							<?php endwhile; ?>
 						<?php endif; ?>
+						<div>
+							<?php get_sub_field('contact_details') { ; ?>
+								<div class="heading__md heading__primary pb1">Contact Details</div>
+								<div>
+									<?php the_sub_field('contact_details');?>
+								</div>
+							<?php }; ?>
+						</div>
 					</div>
 				</div>
 	    	<?php endwhile; ?>
