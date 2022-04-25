@@ -57,8 +57,10 @@
 									<?php if( have_rows('links') ): ?>
 										<ul class="ml0 pl0">
 											<?php while( have_rows('links') ): the_row();?>
+												<?php 
+													$link = get_sub_field('link');?>
 												<li>
-													<a href="<?php the_sub_field('link');?>" class="heading__dark-grey heading__xs">
+													<a href="<?php echo esc_url( $link ); ?>" class="heading__dark-grey heading__xs">
 														<?php the_sub_field('title');?>			
 													</a>
 												</li>
