@@ -20,7 +20,7 @@
     					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__primary heading__xs heading__light"><?php the_sub_field('footer_cta_button_text');?></a>
     				</div>
     			<?php };?>
-    			<div class="footer__contact pb5 pt5 text__center">
+    			<div class="footer__contact pb7 pt7 text__center">
     				<?php if (get_sub_field('availability_content')) { ?>
     					<div class="heading__lg heading__grey"><?php the_sub_field('availability_content');?></div>
     				<?php };?>
@@ -31,7 +31,7 @@
     					<div class="heading__grey"><a href="<?php the_sub_field('contact_link');?>" class="heading__grey"><?php the_sub_field('availability_content_2');?></a></div>
     				<?php };?>
     				<?php if( have_rows('contact_icons') ): ?>
-	    			<div class="footer__icons pt1">
+	    			<div class="footer__icons pt2">
 						<?php while( have_rows('contact_icons') ): the_row();?>	
 							<a href="<?php the_sub_field('link');?>">
 								<div class="heading__xs heading__light pb1"><?php the_sub_field('title');?></div>
