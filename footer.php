@@ -30,14 +30,20 @@
     				<?php if (get_sub_field('availability_content_2')) { ?>
     					<div class="heading__grey"><a href="<?php the_sub_field('contact_link');?>" class="heading__grey"><?php the_sub_field('availability_content_2');?></a></div>
     				<?php };?>
+    				<?php if( have_rows('contact_icons') ): ?>
+	    			<div class="footer__icons pt1">
+						<?php while( have_rows('contact_icons') ): the_row();?>	
+							<a href="<?php the_sub_field('link');?>">
+								<?php the_sub_field('title');?>
+								<?php if(get_sub_field('image')){ ;?>
+									<?php $image = get_sub_field('image');?>
+									<img src="<?php <?php echo esc_url($image['sizes']['ktp-image']);?>">
+								<?php } ;?>
+							</a>
+						<?php endwhile; ?>
+	    			</div>
+	    			<?php endif; ?>
     			</div>
-    			<?php if( have_rows('contact_icons') ): ?>
-    			<div class="footer__icons pt1">
-					<?php while( have_rows('contact_icons') ): the_row();?>
-						<?php the_sub_field('title');?>
-					<?php endwhile; ?>
-    			</div>
-    			<?php endif; ?>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
 
