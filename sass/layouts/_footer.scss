@@ -35,5 +35,12 @@
 				display:block;
 			}
 		}
+		&--social{
+			display:flex;
+			flex-direction:column;
+			a{
+				background-color:$very-dark-grey;
+			}
+		}
 	}
 }

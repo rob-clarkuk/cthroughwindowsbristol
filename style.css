@@ -1385,6 +1385,15 @@ textarea {
 	display: block;
 }
 
+.footer__navigation--social {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__navigation--social a {
+	background-color: #393939;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
