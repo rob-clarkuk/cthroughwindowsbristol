@@ -34,9 +34,9 @@
 	    			<div class="footer__icons pt1">
 						<?php while( have_rows('contact_icons') ): the_row();?>	
 							<a href="<?php the_sub_field('link');?>">
-								<?php the_sub_field('title');?>
+								<div class="heading__xs heading__light"><?php the_sub_field('title');?></div>
 								<?php if(get_sub_field('image')){ ;?>
-									<div class="heading__xs heading__light"><?php $image = get_sub_field('image');?></div>
+									<?php $image = get_sub_field('image');?>
 									<img src="<?php echo esc_url($image['sizes']['ktp-image']);?>">
 								<?php } ;?>
 							</a>
