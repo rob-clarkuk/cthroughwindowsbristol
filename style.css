@@ -1360,6 +1360,13 @@ textarea {
 	margin: auto;
 }
 
+.footer__navigation {
+	line-height: 1.6;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2em;
+}
+
 .footer__navigation li {
 	display: flex;
 	justify-content: flex-start;
