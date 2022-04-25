@@ -1372,7 +1372,7 @@ textarea {
 .footer__navigation li:before {
 	width: 5px;
 	height: 5px;
-	background-color: #696969;
+	background-color: #393939;
 	border-radius: 50%;
 	content: '';
 	display: block;
