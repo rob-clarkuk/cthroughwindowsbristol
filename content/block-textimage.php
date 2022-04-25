@@ -1,7 +1,7 @@
 <section class="textimage grid3 grid mb2">
 	<div class="textimage__content section__lightgrey pb2 pl4 pr4 pt2">
 		<?php if(get_sub_field('title')){ ;?>
-			<h3 class="heading__lg heading__body-font font400 heading__grey"><?php the_sub_field('title');?></h3>
+			<h3 class="heading__lg heading__body-font font400 heading__dark-grey"><?php the_sub_field('title');?></h3>
 		<?php } ;?>
 		<?php if(get_sub_field('content')){ ;?>
 			<div><?php the_sub_field('content');?></div>

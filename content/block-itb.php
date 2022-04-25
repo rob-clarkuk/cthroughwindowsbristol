@@ -2,7 +2,7 @@
 	<div class="grid3 grid">
 		<?php if(get_sub_field('title')){ ;?>
 			<div class="itb__title">
-				<h2 class="heading__lg heading__body-font text__center font400 heading__grey"><?php the_sub_field('title');?></h2>
+				<h2 class="heading__lg heading__body-font text__center font400 heading__dark-grey"><?php the_sub_field('title');?></h2>
 			</div>
 		<?php } ;?>
 		<?php if(get_sub_field('content')){ ;?>

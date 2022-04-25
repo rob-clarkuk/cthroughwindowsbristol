@@ -20,8 +20,10 @@
     					<a href="<?php the_sub_field('footer_cta_button_link');?>" class="ml1 btn btn__primary heading__xs heading__light"><?php the_sub_field('footer_cta_button_text');?></a>
     				</div>
     			<?php };?>
-    			<div class="footer__contact pb5 pt5">
-
+    			<div class="footer__contact pb5 pt5 text__center">
+    				<?php if (get_sub_field('availability_content')) { ?>
+    					<div class="heading__lg heading__grey"><?php the_sub_field('availability_content');?></div>
+    				<?php };?>
     			</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
