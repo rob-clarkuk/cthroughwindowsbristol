@@ -1388,10 +1388,17 @@ textarea {
 .footer__navigation--social {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
+	grid-gap: 1em;
 }
 
 .footer__navigation--social a {
 	background-color: #393939;
+	padding: 5px;
+}
+
+.footer__navigation--social a img {
+	max-width: 32px;
 }
 
 /*--------------------------------------------------------------
