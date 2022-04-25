@@ -1360,12 +1360,10 @@ textarea {
 	margin: auto;
 }
 
-.footer__navigation ul {
-	list-style: none;
-}
-
 .footer__navigation li {
-	padding-left: 10px;
+	display: grid;
+	grid-template-columns: repeat(10px, auto);
+	list-style: none;
 }
 
 .footer__navigation li:before {
@@ -1374,6 +1372,7 @@ textarea {
 	background-color: #696969;
 	border-radius: 50%;
 	content: '';
+	display: block;
 }
 
 /*--------------------------------------------------------------

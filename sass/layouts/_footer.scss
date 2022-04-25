@@ -15,18 +15,18 @@
 		margin:auto;
 	}
 	&__navigation{
-		
-		ul{
-			list-style:none;
-		}
 		li{
-			padding-left:10px;
+			display:grid;
+			grid-template-columns: repeat(10px, auto);
+			list-style:none;
+
 			&:before{
 				width: 5px;
 				height: 5px;
 				background-color: $dark-grey;
 				border-radius:50%;
 				content:'';
+				display:block;
 			}
 		}
 	}
