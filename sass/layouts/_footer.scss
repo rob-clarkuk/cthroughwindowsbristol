@@ -16,8 +16,8 @@
 	}
 	&__navigation{
 		li{
-			display:grid;
-			grid-template-columns: repeat(10px, auto);
+			display:flex;
+			justify-content: flex-start;
 			list-style:none;
 
 			&:before{
