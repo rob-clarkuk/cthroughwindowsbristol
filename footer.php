@@ -58,7 +58,7 @@
 										<ul>
 											<?php while( have_rows('links') ): the_row();?>
 												<li>
-													<a href="<?php the_sub_field('link');?>" class="heading__dark">
+													<a href="<?php the_sub_field('link');?>" class="heading__dark-grey">
 														<?php the_sub_field('title');?>			
 													</a>
 												</li>
