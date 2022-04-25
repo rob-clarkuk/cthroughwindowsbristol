@@ -1355,6 +1355,8 @@ textarea {
 .footer__copyright {
 	display: flex;
 	justify-content: space-between;
+	width: 1400px;
+	max-width: 90vw;
 }
 
 /*--------------------------------------------------------------
