@@ -1352,6 +1352,11 @@ textarea {
 	grid-gap: 5em;
 }
 
+.footer__copyright {
+	display: flex;
+	justify-content: space-between;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/

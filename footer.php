@@ -53,9 +53,11 @@
 				</div>
 	    	<?php endwhile; ?>
 		<?php endif; ?>
-		<div class="pt3 pb3 text__center section__darkgrey footer__copyright heading__xs heading__grey">
-			<div>Copyright <?php echo date("Y"); ?> &copy; CThrough Windows</div>
-			<div>Website design by Synergy</div>
+		<div class="pt1 pb1 text__center section__darkgrey heading__xs heading__grey">
+			<div class="container footer__copyright">
+				<div>Copyright <?php echo date("Y"); ?> &copy; CThrough Windows</div>
+				<div>Website design by Synergy</div>
+			</div>
 		</div>
 	</footer>
 </div>
