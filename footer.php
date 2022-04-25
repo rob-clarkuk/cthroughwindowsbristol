@@ -14,7 +14,7 @@
 	<footer class="footer">
 		<?php if( have_rows('footer', 'option') ): ?>
     		<?php while( have_rows('footer', 'option') ): the_row();?>
-    			<?php if (the_sub_field('footer_cta_content')) { ?>
+    			<?php if (get_sub_field('footer_cta_content')) { ?>
     				<div class="section__grey pt1 pb1">
 
     				</div>
