@@ -1199,6 +1199,7 @@ table {
 --------------------------------------------- */
 a {
 	color: #4169e1;
+	text-decoration: none;
 }
 
 a:visited {
