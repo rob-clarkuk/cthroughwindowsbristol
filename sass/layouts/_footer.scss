@@ -42,11 +42,11 @@
 			grid-gap:1em;
 			a{
 				background-color:$very-dark-grey;
-				padding:5px;
 				display:flex;
 				align-items:center;
 				justify-content:center;
 				border-radius:5px;
+				margin-left:1em;
 				img{
 					max-width:32px;
 				}
