@@ -175,6 +175,16 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/image-sizes.php';
 
 /**
+ * Adavanced Custom Fields.
+ */
+require get_template_directory() . '/inc/acf.php';
+
+/**
+ * Admin Hide.
+ */
+require get_template_directory() . '/inc/admin.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
