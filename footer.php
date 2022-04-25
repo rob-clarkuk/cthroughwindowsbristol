@@ -25,10 +25,10 @@
     					<div class="heading__lg heading__grey"><?php the_sub_field('availability_content');?></div>
     				<?php };?>
     				<?php if (get_sub_field('phone_number')) { ?>
-    					<div class="pb2 pt2"><a href="tel:<?php the_sub_field('phone_number');?>" class="heading__lg heading__orange"><?php the_sub_field('phone_number');?></a></div>
+    					<div class="pb1 pt1"><a href="tel:<?php the_sub_field('phone_number');?>" class="heading__lg heading__orange"><?php the_sub_field('phone_number');?></a></div>
     				<?php };?>
     				<?php if (get_sub_field('availability_content_2')) { ?>
-    					<div class="heading__grey"><?php the_sub_field('availability_content_2');?></div>
+    					<div class="heading__grey"><a href="<?php the_sub_field('contact_link');?>" class="heading__orange"><?php the_sub_field('availability_content_2');?></a></div>
     				<?php };?>
     			</div>
 	    	<?php endwhile; ?>
