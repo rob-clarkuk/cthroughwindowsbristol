@@ -1194,6 +1194,14 @@ figure {
 	background-color: #393939;
 }
 
+.section__primary {
+	background-color: #4b21ff;
+}
+
+.section__secondary {
+	background-color: #287bf8;
+}
+
 table {
 	margin: 0 0 1.5em;
 	width: 100%;

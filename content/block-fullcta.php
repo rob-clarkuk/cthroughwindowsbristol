@@ -12,7 +12,7 @@
 					<div class="fullcta__item">
 						<?php if(get_sub_field('title')){ ;?>
 							<div class="fullcta__item--title section__primary">
-								<h5 class="heading__md heading__body-font text__center font400 heading__white pl2 pr2 pt2 pb2">
+								<h5 class="heading__md heading__body-font text__center font400 heading__light pl1 pr1 pt2 pb2">
 									<?php the_sub_field('title');?>
 								</h5>
 							</div>
