@@ -23,24 +23,32 @@
 	&__item{
 		display: flex;
 		flex-direction:column;
+		transition: .3s;
 		&--icon{
 			svg{
 				max-height:24px;
 				height:24px;
 				path{
 					fill:$primary-color;
+					transition: .3s;
 				}
 			}
 		}
+		h6{
+			transition: .3s;
+		}
 		&:hover{
 			background-color:$tertiary-color;
+			transition: .3s;
 			svg{
 				path{
 					fill:$white;
+					transition: .3s;
 				}
 			}
 			h6{
 				color:$white;
+				transition: .3s;
 			}
 		}
 	}

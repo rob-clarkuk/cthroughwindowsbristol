@@ -1640,6 +1640,7 @@ textarea {
 .ctaLinks__item {
 	display: flex;
 	flex-direction: column;
+	transition: .3s;
 }
 
 .ctaLinks__item--icon svg {
@@ -1649,18 +1650,26 @@ textarea {
 
 .ctaLinks__item--icon svg path {
 	fill: #4b21ff;
+	transition: .3s;
+}
+
+.ctaLinks__item h6 {
+	transition: .3s;
 }
 
 .ctaLinks__item:hover {
 	background-color: #4a20fc;
+	transition: .3s;
 }
 
 .ctaLinks__item:hover svg path {
 	fill: #fff;
+	transition: .3s;
 }
 
 .ctaLinks__item:hover h6 {
 	color: #fff;
+	transition: .3s;
 }
 
 .itb .grid {
