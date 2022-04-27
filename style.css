@@ -1666,7 +1666,12 @@ textarea {
 	}
 }
 
-position:relative
+.fullcta {
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
 .fullcta:before {
 	background-color: #fff;
 	position: absolute;
