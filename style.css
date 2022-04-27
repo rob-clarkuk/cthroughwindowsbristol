@@ -1363,7 +1363,13 @@ textarea {
 .header__topbar--container {
 	display: flex;
 	justify-content: space-between;
+}
+
+.header__topbar--phone {
+	display: flex;
+	justicy-content: flex-end;
 	align-items: center;
+	grid-gap: 10px;
 }
 
 .header__topbar svg {

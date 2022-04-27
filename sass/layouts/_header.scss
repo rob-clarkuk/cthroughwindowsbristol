@@ -4,7 +4,12 @@
 		&--container{
 			display: flex;
 			justify-content: space-between;
+		}
+		&--phone{
+			display:flex;
+			justicy-content:flex-end;
 			align-items:center;
+			grid-gap:10px;
 		}
 		svg{
 			width:16px;
