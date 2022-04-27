@@ -9,6 +9,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'text_image_combine_block' ):?>
+			
+			<?php get_template_part( 'content/block', 'combinedtextimage' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
