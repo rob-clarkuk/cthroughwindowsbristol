@@ -1365,6 +1365,13 @@ textarea {
 	justify-content: space-between;
 }
 
+.header__topbar--opening {
+	display: flex;
+	justicy-content: flex-start;
+	align-items: center;
+	grid-gap: 10px;
+}
+
 .header__topbar--phone {
 	display: flex;
 	justicy-content: flex-end;

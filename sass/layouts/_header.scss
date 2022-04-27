@@ -5,6 +5,12 @@
 			display: flex;
 			justify-content: space-between;
 		}
+		&--opening{
+			display:flex;
+			justicy-content:flex-start;
+			align-items:center;
+			grid-gap:10px;
+		}
 		&--phone{
 			display:flex;
 			justicy-content:flex-end;
