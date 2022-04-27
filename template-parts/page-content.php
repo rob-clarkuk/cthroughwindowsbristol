@@ -21,6 +21,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'cta_links' ):?>
+			
+			<?php get_template_part( 'content/block', 'ctalinks' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
