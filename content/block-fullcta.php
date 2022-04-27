@@ -1,5 +1,5 @@
 <?php $image = get_sub_field('background_image');?>
-<section class="fullcta pt7 pb5 mb2" style="background-image: url(<?php echo esc_url($image['url']); ?>)">
+<section class="fullcta pt5 pb5 mb2" style="background-image: url(<?php echo esc_url($image['url']); ?>)">
 	<div class="container">
 		<?php if(get_sub_field('title')){ ;?>
 			<div class="fullcta__title">
@@ -18,7 +18,7 @@
 							</div>
 						<?php } ;?>
 						<?php if(get_sub_field('content')){ ;?>
-							<div class="fullcta__item--content section__grey text__center pb1">
+							<div class="fullcta__item--content section__light-grey text__center pb1">
 								<div class="heading__sm heading__body-font font400 heading__light-grey pl1 pr1 pt1 pb1">
 									<?php the_sub_field('content');?>
 								</div>
