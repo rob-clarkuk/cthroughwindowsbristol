@@ -30,12 +30,12 @@
 	<header class="header">
 		<?php if( have_rows('header', 'option') ): ?>
     		<?php while( have_rows('header', 'option') ): the_row();?>
-				<div class="header__topbar">
-					<div class="header__topbar--opening">
+				<div class="header__topbar pb1 pt1">
+					<div class="header__topbar--opening header__light">
 						<?php the_sub_field('opening_hours');?>
 					</div>
-					<div class="header__topbar--phone">
-						Call us on <a href="<?php the_sub_field('phone_number');?>"><?php the_sub_field('phone_number');?></a>
+					<div class="header__topbar--phone header__light-grey">
+						Call us on <a href="<?php the_sub_field('phone_number');?>" class="header__light-grey"><?php the_sub_field('phone_number');?></a>
 					</div>
 				</div>
 			<?php endwhile; ?>

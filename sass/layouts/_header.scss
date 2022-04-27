@@ -1,5 +1,7 @@
 .header{
 	&__topbar{
 		background: $site-gradient;
+		display: flex;
+		justify-content: space-between;
 	}
 }
