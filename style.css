@@ -1420,6 +1420,14 @@ textarea {
 	padding: 5px 10px;
 }
 
+.header__nav--navigation ul li a {
+	color: #000;
+}
+
+.header__nav--navigation ul li a:hover {
+	text-decoration: underline;
+}
+
 .footer__contact {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }
