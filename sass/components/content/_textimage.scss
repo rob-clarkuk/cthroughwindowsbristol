@@ -8,6 +8,7 @@
 	}
 	&__image{
 		box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px 0;
+		background-size: cover;
 		@media only screen and (max-width: 1024px) {
 			min-height:350px;
 			width:100%;
