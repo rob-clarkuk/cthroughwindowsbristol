@@ -19,7 +19,7 @@
 					</div>
 					<h4 class="heading__primary"><?php the_sub_field('title');?></h4>
 					<div class="pb1 ctaBlock__item--content"><?php the_sub_field('content');?></div>
-					<a href="<?php the_sub_field('link');?>" class="btn btn__primary pl1 pr1"><?php the_sub_field('button_title');?></a>
+					<a href="<?php the_sub_field('link');?>" class="btn btn__secondary pl1 pr1"><?php the_sub_field('button_title');?></a>
 				</div>
 			<?php endwhile;?>
 		</div>
