@@ -1697,6 +1697,10 @@ textarea {
 	position: relative;
 }
 
+.fullcta__container {
+	grid-gap: 1em;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
