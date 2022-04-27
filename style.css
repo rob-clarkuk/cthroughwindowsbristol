@@ -1292,10 +1292,12 @@ input[type="submit"]:focus {
 
 .btn__light {
 	background-color: #fff;
+	color: #4b21ff;
 }
 
 .btn__light:hover {
 	background-color: #4b21ff;
+	color: #fff;
 }
 
 input[type="text"],
