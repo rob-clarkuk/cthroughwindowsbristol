@@ -13,7 +13,7 @@
 						</div>
 					<?php } ;?>
 					<div class="textmap__content--item__content">
-						<div class="heading__md heading__body-font heading__light"><?php the_sub_field('title');?></div>
+						<div class="heading__sm heading__heading-font font100 heading__light"><?php the_sub_field('title');?></div>
 						<div class="heading__body-font font400 heading__light"><?php the_sub_field('content');?></div>
 					</div>
 				</div>

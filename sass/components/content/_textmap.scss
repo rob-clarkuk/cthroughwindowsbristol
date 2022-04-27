@@ -3,6 +3,9 @@
 	&__content{
 		grid-column:span 2;
 		background:$site-gradient;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
 		&--item{
 			display:grid;
 			max-width: 300px;
