@@ -1517,6 +1517,15 @@ textarea {
 	grid-gap: 3em;
 }
 
+.ctaBlock__item--icon {
+	max-width: 32px;
+	margin: auto;
+}
+
+.ctaBlock__item--icon svg path {
+	fill: #4b21ff;
+}
+
 .ctaBlock__item--content {
 	min-height: 100px;
 }
