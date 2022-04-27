@@ -1206,16 +1206,8 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: #800080;
-}
-
-a:hover, a:focus, a:active {
-	color: #191970;
-}
-
 a:focus {
-	outline: thin dotted;
+	outline: 0;
 }
 
 a:hover, a:active {
@@ -1519,6 +1511,10 @@ textarea {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.ctaBlock__container {
+	grid-gap: 2em;
 }
 
 .itb .grid {
