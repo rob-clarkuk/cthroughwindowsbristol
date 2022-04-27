@@ -1633,6 +1633,11 @@ textarea {
 	min-height: 100px;
 }
 
+.ctaLinks__item {
+	display: flex;
+	flex-direction: column;
+}
+
 .itb .grid {
 	grid-gap: 1.5em;
 }
