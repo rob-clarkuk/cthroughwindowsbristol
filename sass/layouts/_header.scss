@@ -4,12 +4,13 @@
 		&--container{
 			display: flex;
 			justify-content: space-between;
+			align-items:center;
 		}
 		svg{
-			width:32px;
-			max-width:32px;
+			width:16px;
+			max-width:16px;
 			path{
-				fill:$white;
+				fill:$light-grey;
 			}
 		}
 	}

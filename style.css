@@ -1363,15 +1363,16 @@ textarea {
 .header__topbar--container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header__topbar svg {
-	width: 32px;
-	max-width: 32px;
+	width: 16px;
+	max-width: 16px;
 }
 
 .header__topbar svg path {
-	fill: #fff;
+	fill: #f9f9f9;
 }
 
 .header__container {
