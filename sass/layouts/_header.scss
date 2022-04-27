@@ -38,7 +38,14 @@
 			width:100px;
 		}
 		&--navigation{
-
+			ul{
+				display:flex;
+				justify-content:flex-end;
+				list-style:none;
+				li{
+					padding:5px 10px;
+				}
+			}
 		}
 	}
 }
