@@ -22,10 +22,10 @@
 								<div class="heading__sm heading__body-font text__center font400 heading__light-grey pl1 pr1 pt1 pb1">
 									<?php the_sub_field('content');?>
 								</div>
+								<?php if(get_sub_field('link')){ ;?>
+									<a href="<?php the_sub_field('link');?>" class="pl1 pr1 btn btn__light heading__xs heading__primary">Visit Page</a>
+								<?php } ;?>
 							</div>
-							<?php if(get_sub_field('link')){ ;?>
-								<a href="<?php the_sub_field('link');?>" class="pl1 pr1 btn btn__light heading__xs heading__primary">Visit Page</a>
-							<?php } ;?>
 						<?php } ;?>
 					</div>
 				<?php endwhile;?>

@@ -1290,6 +1290,14 @@ input[type="submit"]:focus {
 	background-color: #287bf8;
 }
 
+.btn__light {
+	background-color: #fff;
+}
+
+.btn__light:hover {
+	background-color: #4b21ff;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="url"],

@@ -48,4 +48,10 @@ input[type="submit"] {
 			background-color:$secondary-color;
 		}
 	}
+	&__light{
+		background-color:$white;
+		&:hover{
+			background-color:$primary-color;
+		}
+	}
 }
