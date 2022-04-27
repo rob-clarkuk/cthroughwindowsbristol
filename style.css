@@ -1651,15 +1651,15 @@ textarea {
 	fill: #4b21ff;
 }
 
-.ctaLinks__item {
-	background-color: #287bf8;
+.ctaLinks__item:hover {
+	background-color: #4a20fc;
 }
 
-.ctaLinks__item svg path {
+.ctaLinks__item:hover svg path {
 	fill: #fff;
 }
 
-.ctaLinks__item h6 {
+.ctaLinks__item:hover h6 {
 	color: #fff;
 }
 

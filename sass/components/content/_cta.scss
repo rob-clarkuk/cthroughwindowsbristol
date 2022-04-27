@@ -32,8 +32,8 @@
 				}
 			}
 		}
-		&{
-			background-color:$secondary-color;
+		&:hover{
+			background-color:$tertiary-color;
 			svg{
 				path{
 					fill:$white;
