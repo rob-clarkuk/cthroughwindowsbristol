@@ -1393,6 +1393,11 @@ textarea {
 	margin: auto;
 }
 
+.header__nav {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 .header__nav--container {
 	display: flex;
 	justify-content: space-between;
