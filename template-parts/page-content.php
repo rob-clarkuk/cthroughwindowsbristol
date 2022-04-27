@@ -27,6 +27,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'text' ):?>
+			
+			<?php get_template_part( 'content/block', 'text' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
