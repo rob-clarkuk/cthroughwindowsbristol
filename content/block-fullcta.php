@@ -12,16 +12,16 @@
 					<div class="fullcta__item">
 						<?php if(get_sub_field('title')){ ;?>
 							<div class="fullcta__item--title section__primary">
-								<h5 class="heading__md heading__body-font text__center font400 heading__light pl1 pr1 pt2 pb2">
+								<div class="heading__md heading__body-font text__center font400 heading__light pl1 pr1 pt2 pb2">
 									<?php the_sub_field('title');?>
-								</h5>
+								</div>
 							</div>
 						<?php } ;?>
 						<?php if(get_sub_field('content')){ ;?>
 							<div class="fullcta__item--content section__grey">
-								<h5 class="heading__sm heading__body-font text__center font400 heading__dark-grey pl1 pr1 pt1 pb1">
+								<div class="heading__sm heading__body-font text__center font400 heading__dark-grey pl1 pr1 pt1 pb1">
 									<?php the_sub_field('content');?>
-								</h5>
+								</div>
 							</div>
 						<?php } ;?>
 					</div>
