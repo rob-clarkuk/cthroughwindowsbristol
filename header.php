@@ -27,7 +27,25 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'cthroughwindowsbristol' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header class="header">
+		<?php if( have_rows('header', 'option') ): ?>
+    		<?php while( have_rows('header', 'option') ): the_row();?>
+				<div class="header__topbar">
+					<div class="header__topbar--opening">
+						<?php the_sub_field('opening_hours');?>
+					</div>
+					<div class="header__topbar--phone">
+						Call us on <a href="<?php the_sub_field('phone_number');?>"><?php the_sub_field('phone_number');?></a>
+					</div>
+				</div>
+			<?php endwhile; ?>
+		<?php endif; ?>
+
+
+
+
+
+
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
