@@ -1700,7 +1700,7 @@ textarea {
 .textmap__content--item {
 	display: grid;
 	max-width: 300px;
-	grid-template-colums: 60px auto;
+	grid-template-columns: 60px auto;
 }
 
 .textmap__image {
