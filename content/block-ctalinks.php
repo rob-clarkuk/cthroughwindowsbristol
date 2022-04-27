@@ -21,7 +21,7 @@
 							}
 						;?>
 					</div>
-					<h6 class="heading__dark heading__xs font400"><?php the_sub_field('title');?></h6>
+					<h6 class="heading__dark heading__xs font400 pb0 pt0 mb0 mt0"><?php the_sub_field('title');?></h6>
 				</a>
 			<?php endwhile;?>
 		</div>
