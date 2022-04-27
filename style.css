@@ -1681,6 +1681,11 @@ textarea {
 	right: 0;
 	content: '';
 	opacity: .7;
+	z-index: 1;
+}
+
+.fullcta > div {
+	z-index: 2;
 }
 
 /* Comments
