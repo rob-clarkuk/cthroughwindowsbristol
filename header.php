@@ -42,7 +42,7 @@
 				</div>
 			<?php endwhile; ?>
 		<?php endif; ?>
-		<div class="header__nav pb1 pt1">
+		<div class="header__nav">
 			<div class="header__container header__nav--container">
 				<div class="header__nav--logo">
 					<?php
