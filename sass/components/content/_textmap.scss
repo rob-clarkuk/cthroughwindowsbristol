@@ -1,9 +1,10 @@
 .textmap{
-	background:$site-gradient;
 	&__content{
 		grid-column:span 2;
+		background:$site-gradient;
 	}
 	&__image{
 		grid-column:span 1;
+		background-size:cover;
 	}
 }
