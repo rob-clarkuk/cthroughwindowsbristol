@@ -1684,6 +1684,18 @@ textarea {
 	}
 }
 
+.textmap {
+	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
+}
+
+.textmap__content {
+	grid-column: span 2;
+}
+
+.textmap__image {
+	grid-column: span 1;
+}
+
 .fullcta {
 	background-position: center;
 	background-size: cover;
