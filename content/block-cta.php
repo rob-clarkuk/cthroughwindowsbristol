@@ -4,7 +4,9 @@
 		<div class="grid4 grid">
 			<?php while( have_rows('ctas') ) : the_row();?>
 				<div class="ctaBlock__item text__center heading__xs">
-					<h4 class="heading__primary"><?php the_sub_field('title');?></h4>
+					<h4 class="heading__secondary"><?php the_sub_field('title');?></h4>
+					<div><?php the_sub_field('content');?></div>
+					<a href="<?php the_sub_field('link');?>" class="btn"><?php the_sub_field('button_title');?></a>
 				</div>
 			<?php endwhile;?>
 		</div>
