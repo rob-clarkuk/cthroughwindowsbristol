@@ -1,4 +1,5 @@
 .textmap{
+	grid-gap:2em;
 	&__content{
 		grid-column:span 2;
 		background:$site-gradient;
