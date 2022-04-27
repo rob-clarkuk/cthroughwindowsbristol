@@ -7,6 +7,8 @@
 					<?php 
 						if( get_sub_field('icon') == 'icon-house1' ) {
 						     get_template_part( 'icons/icon', 'house1' );
+						} elseif( get_sub_field('icon') == 'icon-house2' ) {
+						     get_template_part( 'icons/icon', 'house2' );
 						}
 					;?>
 					<h4 class="heading__primary"><?php the_sub_field('title');?></h4>
