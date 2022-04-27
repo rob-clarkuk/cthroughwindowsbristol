@@ -2,6 +2,7 @@
 	grid-gap:2em;
 	&__content{
 		grid-column:span 2;
+		grid-gap:2em;
 		background:$site-gradient;
 		display:flex;
 		flex-direction:column;
@@ -9,6 +10,7 @@
 		&--item{
 			display:grid;
 			max-width: 300px;
+			grid-template-colums: 60px auto;
 		}
 	}
 	&__image{
