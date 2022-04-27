@@ -45,6 +45,16 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'text_map' ):?>
+
+		<div class="container">
+			
+			<?php get_template_part( 'content/block', 'textmap' );?>
+
+		</div>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
