@@ -1393,6 +1393,11 @@ textarea {
 	margin: auto;
 }
 
+.header__nav--container {
+	display: flex;
+	justify-content: space-between;
+}
+
 .header__nav--logo {
 	width: 100px;
 }
