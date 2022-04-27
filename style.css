@@ -1693,6 +1693,11 @@ textarea {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }
 
+.textmap__content--item {
+	display: grid;
+	max-width: 300px;
+}
+
 .textmap__image {
 	grid-column: span 1;
 	background-size: cover;

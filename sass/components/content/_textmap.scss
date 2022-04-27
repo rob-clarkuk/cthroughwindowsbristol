@@ -3,6 +3,10 @@
 	&__content{
 		grid-column:span 2;
 		background:$site-gradient;
+		&--item{
+			display:grid;
+			max-width: 300px;
+		}
 	}
 	&__image{
 		grid-column:span 1;
