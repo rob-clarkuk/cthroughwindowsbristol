@@ -4,7 +4,7 @@
 		<div class="grid6 grid ">
 			<?php while( have_rows('ctas') ) : the_row();?>
 				<a class="ctaLinks__item text__center pb3 pl3 pr3 pt3" href="<?php the_sub_field('link');?>">
-					<div class="ctaLink__item--icon">
+					<div class="ctaLinks__item--icon">
 						<?php 
 							if( get_sub_field('icon') == 'icon-house1' ) {
 							     get_template_part( 'icons/icon', 'house1' );
