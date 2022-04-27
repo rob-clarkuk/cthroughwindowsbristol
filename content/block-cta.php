@@ -9,6 +9,10 @@
 						     get_template_part( 'icons/icon', 'house1' );
 						} elseif( get_sub_field('icon') == 'icon-house2' ) {
 						     get_template_part( 'icons/icon', 'house2' );
+						} elseif( get_sub_field('icon') == 'icon-roof' ) {
+						     get_template_part( 'icons/icon', 'roof' );
+						} elseif( get_sub_field('icon') == 'icon-buildings' ) {
+						     get_template_part( 'icons/icon', 'buildings' );
 						}
 					;?>
 					<h4 class="heading__primary"><?php the_sub_field('title');?></h4>
