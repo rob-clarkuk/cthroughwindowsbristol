@@ -33,39 +33,42 @@
 				<div class="header__topbar pb1 pt1">
 					<div class="header__container header__topbar--container">
 						<div class="header__topbar--opening heading__light">
-							<span><?php get_template_part( 'icons/icon', 'clock' );?></span> <?php the_sub_field('opening_hours');?>
+							<?php get_template_part( 'icons/icon', 'clock' );?> <?php the_sub_field('opening_hours');?>
 						</div>
 						<div class="header__topbar--phone heading__light-grey">
-							Call us on <a href="<?php the_sub_field('phone_number');?>" class="heading__light"><?php the_sub_field('phone_number');?></a><span><?php get_template_part( 'icons/icon', 'phone' );?></span>
+							Call us on <a href="<?php the_sub_field('phone_number');?>" class="heading__light"><?php the_sub_field('phone_number');?></a><?php get_template_part( 'icons/icon', 'phone' );?>
 						</div>
 					</div>
 				</div>
 			<?php endwhile; ?>
 		<?php endif; ?>
+		<div class="header__nav pb1 pt1">
+			<div class="header__container header__nav--container">
+				<div class="header__nav--logo">
+					<?php
+					the_custom_logo();
+					if ( is_front_page() && is_home() ) :
+						?>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<?php
+					else :
+						?>
+						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+						<?php
+					endif;
+					$cthroughwindowsbristol_description = get_bloginfo( 'description', 'display' );
+					if ( $cthroughwindowsbristol_description || is_customize_preview() ) :
+						?>
+						<p class="site-description"><?php echo $cthroughwindowsbristol_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
 
 
 
 
-
-
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$cthroughwindowsbristol_description = get_bloginfo( 'description', 'display' );
-			if ( $cthroughwindowsbristol_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $cthroughwindowsbristol_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+		
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cthroughwindowsbristol' ); ?></button>
