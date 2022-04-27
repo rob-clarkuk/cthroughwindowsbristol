@@ -5,7 +5,7 @@
 		<?php } ;?>
 	</div>
 	<?php if(get_sub_field('image')){ ;?>
-		<?php $image = get_sub_field('image');?>
+		<?php $image = get_sub_field('map_image');?>
 		<div class="textmap__image" style="background-image: url(<?php echo esc_url($image['sizes']['textimage-image']); ?>);">
 			
 		</div>
