@@ -6,7 +6,10 @@
 		<?php if( have_rows('info_blocks') ): ;?>
 			<?php while( have_rows('info_blocks') ) : the_row();?>
 				<div class="textmap__content--item">
-					<div class="heading__sm heading__body-font font400 heading__light"><?php the_sub_field('title');?></div>
+					<div class="textmap__content--item__content">
+						<div class="heading__sm heading__body-font font200 heading__light"><?php the_sub_field('title');?></div>
+						<div class="heading__xs heading__body-font font400 heading__light"><?php the_sub_field('content');?></div>
+					</div>
 				</div>
 			<?php endwhile;?>
 		<?php endif;?>
