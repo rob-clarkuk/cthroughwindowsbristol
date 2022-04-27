@@ -1642,6 +1642,15 @@ textarea {
 	flex-direction: column;
 }
 
+.ctaLinks__item--icon svg {
+	max-height: 32px;
+	height: 32px;
+}
+
+.ctaLinks__item--icon svg path {
+	fill: #4b21ff;
+}
+
 .itb .grid {
 	grid-gap: 1.5em;
 }
