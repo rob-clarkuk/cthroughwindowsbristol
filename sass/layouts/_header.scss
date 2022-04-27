@@ -1,7 +1,13 @@
 .header{
 	&__topbar{
 		background: $site-gradient;
-		display: flex;
-		justify-content: space-between;
+		&--container{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	&__container{
+		max-width:90vw;
+		margin:auto;
 	}
 }

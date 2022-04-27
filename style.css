@@ -1354,8 +1354,16 @@ textarea {
 --------------------------------------------------------------*/
 .header__topbar {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
+}
+
+.header__topbar--container {
 	display: flex;
 	justify-content: space-between;
+}
+
+.header__container {
+	max-width: 90vw;
+	margin: auto;
 }
 
 .footer__contact {
