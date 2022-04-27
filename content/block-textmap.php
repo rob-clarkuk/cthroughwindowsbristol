@@ -4,7 +4,7 @@
 			<h3 class="heading__md heading__body-font font400 heading__light text__center"><?php the_sub_field('title');?></h3>
 		<?php } ;?>
 		<?php if( have_rows('info_blocks') ): ;?>
-			<?php while( have_rows('bullet_points') ) : the_row();?>
+			<?php while( have_rows('info_blocks') ) : the_row();?>
 				<div class="textmap__content--item">
 					<div class="heading__sm heading__body-font font400 heading__light"><?php the_sub_field('title');?></div>
 				</div>
