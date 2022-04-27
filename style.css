@@ -1402,10 +1402,18 @@ textarea {
 	width: 100px;
 }
 
+.header__nav--navigation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 .header__nav--navigation ul {
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .header__nav--navigation ul li {
