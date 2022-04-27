@@ -1699,7 +1699,7 @@ textarea {
 
 .textmap__content--item {
 	display: grid;
-	max-width: 300px;
+	max-width: 350px;
 	grid-template-columns: 75px auto;
 }
 
