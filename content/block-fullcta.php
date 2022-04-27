@@ -17,6 +17,13 @@
 								</h5>
 							</div>
 						<?php } ;?>
+						<?php if(get_sub_field('content')){ ;?>
+							<div class="fullcta__item--content section__grey">
+								<h5 class="heading__sm heading__body-font text__center font400 heading__dark-grey pl1 pr1 pt1 pb1">
+									<?php the_sub_field('content');?>
+								</h5>
+							</div>
+						<?php } ;?>
 					</div>
 				<?php endwhile;?>
 			</div>
