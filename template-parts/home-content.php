@@ -15,6 +15,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'cta_block' ):?>
+			
+			<?php get_template_part( 'content/block', 'cta' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
