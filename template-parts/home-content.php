@@ -21,6 +21,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'seperator' ):?>
+			
+			<?php get_template_part( 'content/block', 'seperator' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
