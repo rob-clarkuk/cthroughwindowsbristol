@@ -1643,12 +1643,24 @@ textarea {
 }
 
 .ctaLinks__item--icon svg {
-	max-height: 32px;
-	height: 32px;
+	max-height: 24px;
+	height: 24px;
 }
 
 .ctaLinks__item--icon svg path {
 	fill: #4b21ff;
+}
+
+.ctaLinks__item {
+	background-color: #287bf8;
+}
+
+.ctaLinks__item svg path {
+	fill: #fff;
+}
+
+.ctaLinks__item h6 {
+	color: #fff;
 }
 
 .itb .grid {

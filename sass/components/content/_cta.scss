@@ -25,11 +25,22 @@
 		flex-direction:column;
 		&--icon{
 			svg{
-				max-height:32px;
-				height:32px;
+				max-height:24px;
+				height:24px;
 				path{
 					fill:$primary-color;
 				}
+			}
+		}
+		&{
+			background-color:$secondary-color;
+			svg{
+				path{
+					fill:$white;
+				}
+			}
+			h6{
+				color:$white;
 			}
 		}
 	}
