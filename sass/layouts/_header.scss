@@ -5,6 +5,13 @@
 			display: flex;
 			justify-content: space-between;
 		}
+		svg{
+			width:32px;
+			max-width:32px;
+			path{
+				fill:$white;
+			}
+		}
 	}
 	&__container{
 		max-width:90vw;

@@ -36,7 +36,7 @@
 							<?php get_template_part( 'icons/icon', 'clock' );?> <?php the_sub_field('opening_hours');?>
 						</div>
 						<div class="header__topbar--phone heading__light-grey">
-							Call us on <a href="<?php the_sub_field('phone_number');?>" class="heading__light"><?php the_sub_field('phone_number');?></a> <?php get_template_part( 'icons/icon', 'clock' );?>
+							Call us on <a href="<?php the_sub_field('phone_number');?>" class="heading__light"><?php the_sub_field('phone_number');?></a> <?php get_template_part( 'icons/icon', 'phone' );?>
 						</div>
 					</div>
 				</div>
