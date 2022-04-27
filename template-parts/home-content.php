@@ -39,6 +39,12 @@
 
 		<?php endif ;?>
 
+		<?php if( get_row_layout() == 'full_block_cta' ):?>
+			
+			<?php get_template_part( 'content/block', 'fullcta' );?>
+
+		<?php endif ;?>
+
 	<?php endwhile;?>
 </main>
 
