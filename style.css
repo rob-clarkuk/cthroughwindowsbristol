@@ -1518,9 +1518,12 @@ textarea {
 }
 
 .ctaBlock__item--icon {
+	margin: auto;
+}
+
+.ctaBlock__item--icon svg {
 	max-height: 32px;
 	height: 32px;
-	margin: auto;
 }
 
 .ctaBlock__item--icon svg path {

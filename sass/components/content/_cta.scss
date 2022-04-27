@@ -4,10 +4,10 @@
 	}
 	&__item{
 		&--icon{
-			max-height:32px;
-			height:32px;
 			margin:auto;
 			svg{
+				max-height:32px;
+				height:32px;
 				path{
 					fill: $primary-color;
 				}
