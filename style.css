@@ -1696,6 +1696,9 @@ textarea {
 .textmap__image {
 	grid-column: span 1;
 	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .fullcta {
