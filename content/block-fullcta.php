@@ -18,8 +18,8 @@
 							</div>
 						<?php } ;?>
 						<?php if(get_sub_field('content')){ ;?>
-							<div class="fullcta__item--content section__lightgrey text__center pb1">
-								<div class="heading__sm heading__body-font font400 heading__light-grey pl1 pr1 pt1 pb1">
+							<div class="fullcta__item--content section__grey text__center pb1">
+								<div class="heading__sm heading__body-font font400 heading__dark-grey pl1 pr1 pt1 pb1">
 									<?php the_sub_field('content');?>
 								</div>
 								<?php if(get_sub_field('link')){ ;?>
