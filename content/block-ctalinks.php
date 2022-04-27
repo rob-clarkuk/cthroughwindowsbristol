@@ -10,6 +10,10 @@
 							     get_template_part( 'icons/icon', 'house1' );
 							} elseif( get_sub_field('icon') == 'icon-house2' ) {
 							     get_template_part( 'icons/icon', 'house2' );
+							} elseif( get_sub_field('icon') == 'icon-house3' ) {
+							     get_template_part( 'icons/icon', 'house3' );
+							} elseif( get_sub_field('icon') == 'icon-person' ) {
+							     get_template_part( 'icons/icon', 'person' );
 							} elseif( get_sub_field('icon') == 'icon-roof' ) {
 							     get_template_part( 'icons/icon', 'roof' );
 							} elseif( get_sub_field('icon') == 'icon-buildings' ) {
