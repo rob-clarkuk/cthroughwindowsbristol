@@ -4,7 +4,7 @@
 			<h3 class="heading__lg heading__body-font font400 heading__light"><?php the_sub_field('title');?></h3>
 		<?php } ;?>
 	</div>
-	<?php if(get_sub_field('image')){ ;?>
+	<?php if(get_sub_field('map_image')){ ;?>
 		<?php $image = get_sub_field('map_image');?>
 		<div class="textmap__image" style="background-image: url(<?php echo esc_url($image['sizes']['textimage-image']); ?>);">
 			
