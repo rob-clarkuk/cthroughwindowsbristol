@@ -1518,7 +1518,7 @@ textarea {
 }
 
 .ctaBlock__item--content {
-	min-height: 210px;
+	min-height: 100px;
 }
 
 .itb .grid {
