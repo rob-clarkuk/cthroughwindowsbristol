@@ -1,6 +1,9 @@
 .ctaBlock{
 	&__container{
 		grid-gap:3em;
+		@media screen and (max-width: 1023px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
 	&__item{
 		&--icon{

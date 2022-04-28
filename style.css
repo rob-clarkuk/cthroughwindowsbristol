@@ -1670,6 +1670,12 @@ select {
 	grid-gap: 3em;
 }
 
+@media screen and (max-width: 1023px) {
+	.ctaBlock__container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 .ctaBlock__item--icon {
 	margin: auto;
 }
