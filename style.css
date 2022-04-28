@@ -1872,7 +1872,7 @@ select {
 
 @media screen and (max-width: 1023px) {
 	.textmap {
-		grid-template-columns: 100%;
+		grid-template-columns: 100% !important;
 	}
 }
 
