@@ -1,5 +1,8 @@
 .textmap{
 	grid-gap:2em;
+	@media screen and (max-width: 1023px) {
+		grid-template-columns: 100%;
+	}
 	&__content{
 		grid-column:span 2;
 		grid-gap:2em;

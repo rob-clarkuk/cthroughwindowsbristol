@@ -1870,6 +1870,12 @@ select {
 	grid-gap: 2em;
 }
 
+@media screen and (max-width: 1023px) {
+	.textmap {
+		grid-template-columns: 100%;
+	}
+}
+
 .textmap__content {
 	grid-column: span 2;
 	grid-gap: 2em;
