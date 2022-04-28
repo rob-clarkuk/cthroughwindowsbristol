@@ -1556,15 +1556,17 @@ select {
 	}
 	.footer__copyright > div {
 		padding: 1em;
+		z-index: 2;
 	}
 	.footer__copyright:after {
 		height: 50%;
 		top: 50%;
-		left: 0;
-		right: 0;
+		left: -1em;
+		right: -1em;
 		content: '';
 		background-color: #000;
 		position: absolute;
+		z-index: 1;
 	}
 }
 
