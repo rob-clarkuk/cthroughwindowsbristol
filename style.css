@@ -1545,6 +1545,7 @@ select {
 	width: 1400px;
 	max-width: 90vw;
 	margin: auto;
+	position: relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -1563,6 +1564,7 @@ select {
 		right: 0;
 		content: '';
 		background-color: #000;
+		position: absolute;
 	}
 }
 
