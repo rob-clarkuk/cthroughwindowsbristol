@@ -62,6 +62,17 @@
 					position:absolute;
 				}
 			}
+			.menu-toggle{
+				background-color:transparent;
+				border:2px solid $primary-color:
+				svg{
+					width:32px;
+					max-width:32px;
+					path{
+						fill:$primary-color;
+					}
+				}
+			}
 		}
 	}
 }
