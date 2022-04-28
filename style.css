@@ -1562,6 +1562,12 @@ select {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.footer__navigation {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
 .footer__navigation li {
 	display: flex;
 	justify-content: flex-start;

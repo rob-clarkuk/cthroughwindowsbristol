@@ -35,6 +35,9 @@
 			width:500px;
 			max-width:90vw;
 		}
+		@media screen and (max-width: 600px) {
+			grid-template-columns:repeat(1, 1fr);
+		}
 		li{
 			display:flex;
 			justify-content: flex-start;
