@@ -1556,6 +1556,14 @@ select {
 	.footer__copyright > div {
 		padding: 1em;
 	}
+	.footer__copyright:after {
+		height: 50%;
+		top: 50%;
+		left: 0;
+		right: 0;
+		content: '';
+		background-color: #000;
+	}
 }
 
 .footer__navigation {
