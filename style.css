@@ -1914,6 +1914,12 @@ select {
 	grid-gap: 1em;
 }
 
+@media screen and (max-width: 1023px) {
+	.fullcta__container {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
