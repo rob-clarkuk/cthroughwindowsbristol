@@ -1518,6 +1518,12 @@ select {
 	grid-gap: 2em;
 }
 
+@media screen and (max-width: 1023px) {
+	.footer__navigation {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 .footer__navigation li {
 	display: flex;
 	justify-content: flex-start;

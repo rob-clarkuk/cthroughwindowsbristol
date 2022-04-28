@@ -19,6 +19,9 @@
 		display:grid;
 		grid-template-columns:repeat(4, 1fr);
 		grid-gap:2em;
+		@media screen and (max-width: 1023px) {
+			grid-template-columns:repeat(2, 1fr);
+		}
 		li{
 			display:flex;
 			justify-content: flex-start;
