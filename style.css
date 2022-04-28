@@ -1403,9 +1403,15 @@ select {
 	justify-content: space-between;
 }
 
+@media screen and (max-width: 600px) {
+	.header__topbar--container {
+		justify-content: center;
+	}
+}
+
 .header__topbar--opening {
 	display: flex;
-	justicy-content: flex-start;
+	justify-content: flex-start;
 	align-items: center;
 	grid-gap: 10px;
 }
@@ -1705,6 +1711,12 @@ select {
 @media screen and (max-width: 1023px) {
 	.ctaBlock__container {
 		grid-template-columns: repeat(2, 1fr) !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.ctaBlock__container {
+		grid-template-columns: repeat(1, 1fr) !important;
 	}
 }
 

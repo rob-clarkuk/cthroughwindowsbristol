@@ -4,10 +4,13 @@
 		&--container{
 			display: flex;
 			justify-content: space-between;
+			@media screen and (max-width: 600px) {
+				justify-content: center;
+			}
 		}
 		&--opening{
 			display:flex;
-			justicy-content:flex-start;
+			justify-content:flex-start;
 			align-items:center;
 			grid-gap:10px;
 			@media screen and (max-width: 600px) {
