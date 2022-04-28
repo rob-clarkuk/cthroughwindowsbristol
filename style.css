@@ -1517,6 +1517,12 @@ select {
 	fill: #4b21ff;
 }
 
+@media screen and (max-width: 1023px) {
+	.footer__cta {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+}
+
 .footer__contact {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }

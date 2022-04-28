@@ -1,4 +1,9 @@
 .footer{
+	&__cta{
+		@media screen and (max-width: 1023px) {
+			grid-template-columns: repeat(1, 1fr) !important;
+		}
+	}
 	&__contact{
 		background: $site-gradient;
 	}
