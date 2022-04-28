@@ -1441,6 +1441,20 @@ select {
 	}
 }
 
+.header__nav--navigation .menu-toggle {
+	background-color: transparent;
+	border: 2px solid #4b21ff;
+}
+
+.header__nav--navigation .menu-toggle svg {
+	width: 32px;
+	max-width: 32px;
+}
+
+.header__nav--navigation .menu-toggle svg path {
+	fill: #4b21ff;
+}
+
 .footer__contact {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }
