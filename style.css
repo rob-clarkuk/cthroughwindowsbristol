@@ -1672,7 +1672,7 @@ select {
 
 @media screen and (max-width: 1023px) {
 	.ctaBlock__container {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr) !important;
 	}
 }
 
