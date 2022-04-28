@@ -1410,6 +1410,12 @@ select {
 	grid-gap: 10px;
 }
 
+@media screen and (max-width: 600px) {
+	.header__topbar--opening {
+		display: none;
+	}
+}
+
 .header__topbar--phone {
 	display: flex;
 	justicy-content: flex-end;
@@ -2750,7 +2756,7 @@ select {
 
 @media screen and (max-width: 600px) {
 	.keypoints__item {
-		background-color: transparent;
+		background-color: transparent !important;
 	}
 }
 
