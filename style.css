@@ -1445,12 +1445,14 @@ select {
 		flex-direction: column;
 		padding: 10px;
 		border-radius: 10px;
+		width: 250px;
 	}
 }
 
 .header__nav--navigation .menu-toggle {
 	background-color: transparent;
 	border: 2px solid #4b21ff;
+	margin-right: 1em;
 }
 
 .header__nav--navigation .menu-toggle svg {
