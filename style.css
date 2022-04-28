@@ -1426,6 +1426,7 @@ select {
 
 .header__nav--navigation ul li {
 	padding: 5px 10px;
+	font-size: 14px;
 }
 
 .header__nav--navigation ul li a {
