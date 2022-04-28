@@ -30,6 +30,9 @@
 		@media screen and (max-width: 1023px) {
 			grid-template-columns: repeat(3, 1fr) !important;
 		}
+		@media screen and (max-width: 600px) {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
 	}
 	&__item{
 		display: flex;
