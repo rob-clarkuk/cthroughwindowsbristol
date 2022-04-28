@@ -50,7 +50,9 @@
 					?>
 				</div>
 				<nav class="header__nav--navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cthroughwindowsbristol' ); ?></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+						<?php get_template_part( 'icons/icon', 'menu' );?>
+					</button>
 					<?php
 					wp_nav_menu(
 						array(
