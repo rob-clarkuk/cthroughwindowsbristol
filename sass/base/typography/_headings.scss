@@ -17,9 +17,15 @@ h6 {
 	}
 	&__xl{
 		font-size:65px;
+		@media screen and (max-width: 1023px) {
+			font-size:40px;
+		}
 	}
 	&__lg{
 		font-size:39px;
+		@media screen and (max-width: 1023px) {
+			font-size:26px;
+		}
 	}
 	&__md{
 		font-size:26px;

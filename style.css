@@ -1014,8 +1014,20 @@ h6 {
 	font-size: 65px;
 }
 
+@media screen and (max-width: 1023px) {
+	.heading__xl {
+		font-size: 40px;
+	}
+}
+
 .heading__lg {
 	font-size: 39px;
+}
+
+@media screen and (max-width: 1023px) {
+	.heading__lg {
+		font-size: 26px;
+	}
 }
 
 .heading__md {
