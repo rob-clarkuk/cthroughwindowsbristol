@@ -1992,6 +1992,12 @@ select {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.fullcta__container {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
