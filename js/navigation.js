@@ -109,5 +109,7 @@
 
 ( function( $ ) {
 	
-	console.log('working');
+	$('.menu-toggle').on('click', function(){
+		$('.header__nav--navigation ul').toggleClass('active');
+	})
 }( jQuery ) );
