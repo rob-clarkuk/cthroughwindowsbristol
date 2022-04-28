@@ -1435,6 +1435,12 @@ select {
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 1025px) {
+	.header__nav--navigation ul {
+		position: absolute;
+	}
+}
+
 .footer__contact {
 	background: linear-gradient(90deg, #2a7fff 10%, #4b21ff 33%, #4b21ff 66%, #8e20ff 100%);
 }

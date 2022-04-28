@@ -59,7 +59,7 @@
 						)
 					);
 					?>
-				</nav><!-- #site-navigation -->
+				</nav>
 			</div>
 		</div>
 
