@@ -1441,6 +1441,10 @@ select {
 		position: absolute;
 		right: 1em;
 		top: 100%;
+		background-color: #f9f9f9;
+		flex-direction: column;
+		padding: 10px;
+		border-radius: 10px;
 	}
 }
 

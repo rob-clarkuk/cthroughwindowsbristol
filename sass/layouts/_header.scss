@@ -63,6 +63,10 @@
 					position:absolute;
 					right:1em;
 					top:100%;
+					background-color:$light-grey;
+					flex-direction:column;
+					padding:10px;
+					border-radius:10px;
 				}
 			}
 			.menu-toggle{
