@@ -1707,6 +1707,12 @@ select {
 	min-height: 100px;
 }
 
+@media screen and (max-width: 1023px) {
+	.ctaLinks__container {
+		grid-template-columns: repeat(3, 1fr) !important;
+	}
+}
+
 .ctaLinks__item {
 	display: flex;
 	flex-direction: column;
