@@ -1521,6 +1521,8 @@ select {
 @media screen and (max-width: 1023px) {
 	.footer__navigation {
 		grid-template-columns: repeat(2, 1fr);
+		width: 500px;
+		max-width: 90vw;
 	}
 }
 
