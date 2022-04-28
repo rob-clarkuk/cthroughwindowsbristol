@@ -2703,6 +2703,12 @@ select {
 	grid-gap: 10px;
 }
 
+@media screen and (max-width: 600px) {
+	.keypoints__container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 .keypoints__item {
 	color: #fff;
 	display: flex;
@@ -2727,6 +2733,12 @@ select {
 @media screen and (max-width: 1023px) {
 	.keypoints__item {
 		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.keypoints__item {
+		background-color: transparent;
 	}
 }
 
