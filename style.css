@@ -1413,6 +1413,7 @@ select {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	position: relative;
 }
 
 .header__nav--navigation ul {
@@ -1438,6 +1439,8 @@ select {
 @media screen and (max-width: 1025px) {
 	.header__nav--navigation ul {
 		position: absolute;
+		right: 1em;
+		top: 100%;
 	}
 }
 
@@ -1447,8 +1450,8 @@ select {
 }
 
 .header__nav--navigation .menu-toggle svg {
-	width: 32px;
-	max-width: 32px;
+	width: 24px;
+	max-width: 24px;
 }
 
 .header__nav--navigation .menu-toggle svg path {
