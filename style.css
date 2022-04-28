@@ -1561,8 +1561,8 @@ select {
 	.footer__copyright:after {
 		height: 50%;
 		top: 50%;
-		left: -1em;
-		right: -1em;
+		left: -2em;
+		right: -2em;
 		content: '';
 		background-color: #000;
 		position: absolute;
