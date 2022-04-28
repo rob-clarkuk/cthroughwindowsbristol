@@ -14,11 +14,17 @@ h6 {
 		@media screen and (max-width: 1023px) {
 			font-size:65px;
 		}
+		@media screen and (max-width: 600px) {
+			font-size:40px;
+		}
 	}
 	&__xl{
 		font-size:65px;
 		@media screen and (max-width: 1023px) {
 			font-size:40px;
+		}
+		@media screen and (max-width: 600px) {
+			font-size:32px;
 		}
 	}
 	&__lg{

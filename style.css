@@ -1010,6 +1010,12 @@ h6 {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.heading__xxl {
+		font-size: 40px;
+	}
+}
+
 .heading__xl {
 	font-size: 65px;
 }
@@ -1017,6 +1023,12 @@ h6 {
 @media screen and (max-width: 1023px) {
 	.heading__xl {
 		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.heading__xl {
+		font-size: 32px;
 	}
 }
 
