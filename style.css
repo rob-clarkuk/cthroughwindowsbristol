@@ -1906,6 +1906,15 @@ select {
 	justify-content: center;
 }
 
+@media screen and (max-width: 1023px) {
+	.textmap__image {
+		min-height: 400px;
+	}
+	.textmap__image h3 {
+		max-width: 400px;
+	}
+}
+
 .fullcta {
 	background-position: center;
 	background-size: cover;
