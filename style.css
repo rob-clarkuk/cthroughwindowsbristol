@@ -1873,6 +1873,7 @@ select {
 @media screen and (max-width: 1023px) {
 	.textmap {
 		grid-template-columns: 100% !important;
+		grid-gap: 0;
 	}
 }
 
@@ -1889,6 +1890,12 @@ select {
 	display: grid;
 	max-width: 350px;
 	grid-template-columns: 75px auto;
+}
+
+@media screen and (max-width: 1023px) {
+	.textmap__content {
+		grid-column: span 1;
+	}
 }
 
 .textmap__image {
