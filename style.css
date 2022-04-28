@@ -1447,6 +1447,10 @@ select {
 		padding: 10px;
 		border-radius: 10px;
 		width: 250px;
+		display: none;
+	}
+	.header__nav--navigation ul.active {
+		display: flex;
 	}
 }
 
