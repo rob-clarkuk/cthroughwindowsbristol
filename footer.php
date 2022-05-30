@@ -116,7 +116,7 @@
 		<div class="text__center section__darkgrey heading__xs heading__grey">
 			<div class="footer__copyright pt1 pb1 ">
 				<div>Copyright <?php echo date("Y"); ?> &copy; CThrough Windows</div>
-				<div>Website design by Synergy</div>
+				<div>Website design by UK Digital Marketing</div>
 			</div>
 		</div>
 	</footer>
